@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if page and page.content != "" %}
+            <title>{{page.title}} - Braun Embedded</title>
+        {% else %}
+            <title>Braun Embedded</title>
+        {% endif %}
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="/base.css" rel="stylesheet" type="text/css" media="all" />
+        {% block css %}{% endblock css %}
+
+        <base target="_blank" />
+    </head>
+
+    <body>
+        <header>
+            <div class="contact-short">
+                <p>Hanno Braun</p>
+                <p>Michelstadt, Germany</p>
+                <p>
+                    <a href="mailto:Hanno Braun <hanno@braun-embedded.com>">
+                        hanno@braun-embedded.com
+                    </a>
+                </p>
+            </div>
+
+            <h1>Braun Embedded</h1>
+            <h2>Embedded Software Development Services in Rust</h2>
+        </header>
+
+        <div id="main-and-nav">
+            <main>
+                {% block content %}{% endblock content %}
+            </main>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/" target="_self">Home</a>
+                    </li>
+                    <li>
+                        <a href="/dw1000" target="_self">
+                            DW1000 Driver in Rust
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <hr />
+
+        <footer>
+            <table>
+                <tr>
+                    <th>Postal Address</th>
+                    <td>
+                        <p>Hanno Braun</p>
+                        <p>Untere Pfarrgasse 19</p>
+                        <p>64720 Michelstadt</p>
+                        <p>Germany</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>
+                        <a href="mailto:Hanno Braun <hanno@braun-embedded.com>">
+                            hanno@braun-embedded.com
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>+49 6061 9797508</td>
+                </tr>
+            </table>
+
+            <div class="made-in-odenwald">
+                <a href="/made-in-odenwald/1.jpg" target="_blank">
+                    Made in Odenwald ♥
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

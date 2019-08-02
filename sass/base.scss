@@ -1,0 +1,161 @@
+@import "globals";
+
+
+body {
+    font-family     : Helvetica;
+    color:            $color-normal;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color-titles;
+}
+
+strong {
+    color: $color-strong;
+}
+
+a {
+    font-weight: bold;
+    color:       $color-links;
+}
+
+hr {
+    width : 65%;
+    margin: 5em auto;
+    border: 1px solid;
+}
+
+body > header {
+    max-width: $content-width;
+    margin   : 0 auto 3em;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+    h1 {
+        margin-bottom: 0em;
+        font-size :    250%;
+    }
+
+    h2 {
+        margin-top: 0em;
+        font-size : 100%;
+    }
+
+    .contact-short {
+        font-size: 80%;
+        float    : right;
+
+        p {
+            margin: 0em;
+        }
+    }
+}
+
+main {
+    max-width: $content-width;
+    margin   : 0 auto;
+
+    .highlight {
+        background-color: $color-complement2;
+    }
+
+    h1.highlight, h2.highlight, h3.highlight {
+        padding: 0.2em 0.5em;
+    }
+
+    .testimonial {
+        color:  $color-strong;
+        margin: 2em;
+
+        .testimonial-content {
+            background-color: #e4e4e4;
+            border-radius:    1em;
+
+            padding: 0.1em 1em;
+        }
+
+        .testimonial-author {
+            padding: 0.1em 1em;
+        }
+    }
+
+    .call-to-action {
+        text-align: center;
+
+        .link {
+            display: inline-block;
+            padding: 0.8em;
+            margin:  1em 0.3em;
+
+            font-size:     120%;
+            border-radius: 0.3em;
+        }
+
+        .contact-me {
+            background-color: $color-primary;
+
+            a {
+                color: white;
+            }
+        }
+
+        .learn-more {
+            background-color: $color-complement1;
+
+            a {
+                color: $color-strong;
+            }
+        }
+    }
+
+    $left-margin: 2em;
+
+    section {
+        margin-top: 3em;
+    }
+
+    section.regular {
+        h3 {
+            margin-left: $left-margin;
+
+            p.open-source-links {
+                padding   : 0;
+                margin    : 0;
+                font-size : 70%;
+            }
+        }
+
+        p {
+            margin-left: $left-margin * 2;
+        }
+    }
+}
+
+.made-in-odenwald {
+    text-align: center;
+    margin:     3em auto;
+
+    a {
+        color: #000000;
+    }
+}
+
+body > footer table {
+    margin   : 0 auto;
+    font-size: 90%;
+
+    * {
+        vertical-align: text-top;
+    }
+
+    th {
+        text-align: right;
+        padding   : 1em;
+    }
+
+    td p {
+        margin: 0;
+    }
+}

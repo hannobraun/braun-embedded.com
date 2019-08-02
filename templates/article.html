@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block css %}
+<link href="/page.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/article.css" rel="stylesheet" type="text/css" media="all" />
+{% endblock css %}
+
+{% block content %}
+<article>
+	<header>
+		<h1>{{page.title}}</h1>
+		<h2>{{page.extra.subtitle}}</h2>
+		<span class="last-updated">
+			Last updated:
+			<time datetime="{{page.extra.last_updated}}">
+				{{page.extra.last_updated}}
+			</time>
+		</span>
+	</header>
+
+	{{ page.content | safe }}
+</article>
+{% endblock content %}
