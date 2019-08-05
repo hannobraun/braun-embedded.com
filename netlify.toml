@@ -7,3 +7,9 @@ ZOLA_VERSION = "0.6.0"
 
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
+
+[[redirects]]
+from   = "https://braun-embedded.netlify.com/*"
+to     = "https://braun-embedded.com/:splat"
+status = 301
+force  = true
