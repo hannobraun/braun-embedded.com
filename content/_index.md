@@ -150,14 +150,14 @@ Board Support Crate (BSC) for the Decawave DWM1001 module and DWM1001-Dev board.
 
 
 <h3>
-    LPC82x HAL
+    LPC8xx HAL
     <p class="open-source-links">
-        <a href="https://github.com/lpc-rs/lpc82x-hal">GitHub</a>,
+        <a href="https://github.com/lpc-rs/lpc8xx-hal">GitHub</a>,
         <a href="https://crates.io/crates/lpc82x-hal">crates.io</a>
     </p>
 </h3>
 
-Hardware Abstraction Layer (HAL) for the NXP LPC82x family of ARM Cortex-M0+ microcontrollers, written in Rust. Provides a safe and convenient way to write reliable software for LPC82x microcontrollers.
+Hardware Abstraction Layer (HAL) for the NXP LPC800 family of ARM Cortex-M0+ microcontrollers, written in Rust. Provides a safe and convenient way to write reliable software for LPC800 microcontrollers.
 
 
 <h3>
