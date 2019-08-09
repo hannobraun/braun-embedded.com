@@ -58,6 +58,7 @@ Do you need custom control software for your latest hardware project? Or maybe y
 </section>
 
 
+<a name="why-work-with-me"></a>
 <section class="regular">
 
 ## Why work with me?
@@ -85,6 +86,7 @@ Software is often thrown together under a tight deadline, leaving behind a mess 
 </section>
 
 
+<a name="what-my-clients-say"></a>
 <section>
 
 ## What my clients say
@@ -114,6 +116,7 @@ Software is often thrown together under a tight deadline, leaving behind a mess 
 </section>
 
 
+<a name="examples-of-my-work"></a>
 <section class="regular">
 
 ## Examples of my work
@@ -192,6 +195,7 @@ Peripheral Access Crate (PAC) for the NXP LPC82x family of ARM Cortex-M0+ microc
 </section>
 
 
+<a name="about-me"></a>
 <section class="regular">
 
 ## About me
