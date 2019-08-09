@@ -39,7 +39,6 @@
 
 
 <a name="what-i-can-do"></a>
-
 <section class="regular">
 
 ## What I can do
@@ -57,8 +56,9 @@ Having trouble using that radio transceiver, or some other complicated piece of 
 Do you need custom control software for your latest hardware project? Or maybe you need someone to implement a specific library, to aid you with your project? I'm always happy to talk about custom software development projects in the embedded space. <a href="mailto:Hanno Braun <hanno@braun-embedded.com>">Contact me</a>, and we'll figure out the best way forward for you.
 
 </section>
-<section class="regular">
 
+
+<section class="regular">
 
 ## Why work with me?
 
@@ -83,8 +83,9 @@ No project will ever go perfectly. That doesn't mean we have to accept the low q
 Software is often thrown together under a tight deadline, leaving behind a mess that is hard to maintain. I take the time required to create simple and clear code that is easy to change later. No matter if it's me who ends up doing that, or someone else.
 
 </section>
-<section>
 
+
+<section>
 
 ## What my clients say
 
@@ -111,8 +112,9 @@ Software is often thrown together under a tight deadline, leaving behind a mess 
 </div>
 
 </section>
-<section class="regular">
 
+
+<section class="regular">
 
 ## Examples of my work
 
@@ -188,14 +190,16 @@ STM32F7xx HAL is a hardware abstraction layer for the STM32F7 family of microcon
 Peripheral Access Crate (PAC) for the NXP LPC82x family of ARM Cortex-M0+ microcontrollers. Low-level library to enable code written in the Rust programming language to fully control the hardware on those devices.
 
 </section>
-<section class="regular">
 
+
+<section class="regular">
 
 ## About me
 
 My name is Hanno Braun, and I'm an embedded software developer based out of the rural Odenwald region in central Europe. I've been an early adopter of Rust on embedded systems. Today, providing services in this space is my main professional focus.
 
 </section>
+
 
 <div class="call-to-action">
     <div class="link contact-me">
