@@ -29,9 +29,7 @@
     <div class="link contact-me">
         <a href="mailto:Hanno Braun <hanno@braun-embedded.com>">Contact me</a>
     </div>
-    <div class="link learn-more">
-        <a href="#what-i-can-do" target="_self">Learn more</a>
-    </div>
+    <p>↓ or keep reading ↓</p>
 </div>
 
 

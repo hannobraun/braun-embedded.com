@@ -101,12 +101,10 @@ main {
             }
         }
 
-        .learn-more {
-            background-color: $color-complement1;
-
-            a {
-                color: $color-strong;
-            }
+        p {
+            margin-top:  0;
+            font-weight: bold;
+            color:       $color-strong;
         }
     }
 
