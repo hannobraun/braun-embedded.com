@@ -2,7 +2,7 @@
 +++
 
 <h2 class="highlight">
-    Rust is working well for you, but writing code to interface with hardware is taking too much time.
+    Painless Embedded Rust
 </h2>
 
 **The Rust programming language is showing a lot of promise in embedded software development.** It allows us to create programs that are robust, efficient, and run even on the tiniest microcontrollers. **But writing code to interface with your target hardware is a huge chore.** It's taking too much time and effort that could go into your core product instead.
