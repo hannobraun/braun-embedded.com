@@ -47,11 +47,11 @@
 
 ### Drivers for external sensors and actuators
 
-Having trouble using that radio transceiver, or some other complicated piece of hardware? Let's talk. I'll deal with the problems and hide them under a safe and convenient Rust API.
+Want to talk to that accelerometer on your board? Or having trouble using that radio transceiver? Let's talk. I'll deal with the problems and give you a safe, convenient, and documented Rust API. No need to learn all the intricacies, if you just want to use the features.
 
 ### Custom embedded software
 
-Do you need custom control software for your latest hardware project? Or maybe you need someone to implement a specific library, to aid you with your project? I'm always happy to talk about custom software development projects in the embedded space. <a href="mailto:Hanno Braun <hanno@braun-embedded.com>">Contact me</a>, and we'll figure out the best way forward for you.
+Do you need custom control software for that device you're working on? Or maybe you need someone to implement a specific library, to aid you with your project? I'm always happy to talk about custom software development projects in the embedded space. <a href="mailto:Hanno Braun <hanno@braun-embedded.com>">Contact me</a>, and we'll figure out the best way forward for you.
 
 </section>
 
