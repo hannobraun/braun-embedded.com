@@ -61,25 +61,17 @@ Do you need custom control software for your latest hardware project? Or maybe y
 
 ## Why work with me?
 
-### Fixed price
+### Fixed price, full guarantee
 
-No cost overruns, no arguing over billed hours. I will quote you a fixed price up-front and I'll stick to it. Of course my estimates aren't perfect, just like everybody else's, but that's not going to be your problem.
+I will quote you a fixed price up-front and I'll stick to it. I'll even give you a full guarantee on top. If my estimate is off, that's my problem, not yours. If I fail to deliver on the agreed-upon objectives for any reason, I'll refund you the full price. If you find bugs later, I will fix them at no additional charge.
 
-### Full guarantee
+### Low touch, high leverage
 
-Things don't always go as we expect them to. If I fail to deliver on the agreed-upon objectives for any reason, I'll refund you the full price. If you find bugs later, I will fix them at no additional cost.
+Before every project, I ask questions, sometimes lots of them. By the time I'm ready to start, I understand what the project is about, and can work mostly autonomously. I'll write regular reports, keep you in the loop, listen to your feedback. But if you need me to, I'll be on autopilot.
 
-### Strategy, not tactics
+### Slow and measured
 
-We'll start by talking about your objectives. I'll keep you updated as I work on those, and ask for feedback when I need it. But you won't have to watch over my shoulder, making minute decisions. No need to waste your time micromanaging.
-
-### More reliability
-
-No project will ever go perfectly. That doesn't mean we have to accept the low quality software that is so prevalent today. With modern tools and a disciplined approach, I minimize bugs and security issues, as best I can.
-
-### Cheaper maintenance
-
-Software is often thrown together under a tight deadline, leaving behind a mess that is hard to maintain. I take the time required to create simple and clear code that is easy to change later. No matter if it's me who ends up doing that, or someone else.
+Others take pride in getting things done quickly. I take pride in doing it right, and I'll take my time to do it. I will keep my code as clear and simple as the task allows, making it cheaper to change and maintain. No matter if it's me who ends up doing that, or someone else.
 
 </section>
 
