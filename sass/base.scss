@@ -116,10 +116,10 @@ main {
         margin-top: 3em;
     }
 
-    section.regular {
-        h3 {
-            margin-left: $left-margin;
+    section.regular div {
+        margin-left: $left-margin;
 
+        h3 {
             p {
                 padding: 0;
                 margin:  0;
@@ -130,7 +130,7 @@ main {
         }
 
         p {
-            margin-left: $left-margin * 2;
+            margin-left: $left-margin;
         }
     }
 }
