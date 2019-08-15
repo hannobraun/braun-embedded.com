@@ -72,8 +72,10 @@ main {
         margin: 2em;
 
         .testimonial-content {
-            background-color: #e4e4e4;
-            border-radius:    1em;
+            background-color: #f4f4f4;
+            color:            $color-titles;
+
+            border-radius: 1em;
 
             padding: 0.1em 1em;
         }
