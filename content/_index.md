@@ -193,6 +193,60 @@
 </section>
 
 
+<a name="community-involvement"></a>
+<section class="regular">
+
+## Community involvement
+
+As an active member of the Embedded Rust community, I'm associated with the following groups.
+
+<div>
+    <h3>
+        Rust Embedded Devices Working Group
+        <p><a href="https://www.rust-lang.org/governance/wgs/embedded">Rust website</a>, <a href="https://github.com/rust-embedded">GitHub</a></p>
+        <p><strong>founding member, currently inactive</strong></p>
+    </h3>
+    <p>
+        The Embedded Devices Working Group is the part of the Rust project that focuses on making Rust a great choice for embedded development.
+    </p>
+</div>
+
+<div>
+    <h3>
+        nrf-rs
+        <p><a href="https://github.com/nrf-rs">GitHub</a></p>
+        <p><strong>founding member</strong></p>
+    </h3>
+    <p>
+        Works on supporting Rust on Nordic's nRF series of microcontrollers.
+    </p>
+</div>
+
+<div>
+    <h3>
+        lpc-rs
+        <p><a href="https://github.com/lpc-rs">GitHub</a></p>
+        <p><strong>founding member</strong></p>
+    </h3>
+    <p>
+        Works on supporting Rust on NXP's LPC microcontrollers.
+    </p>
+</div>
+
+<div>
+    <h3>
+        stm32-rs
+        <p><a href="https://github.com/stm32-rs">GitHub</a></p>
+        <p><strong>member</strong></p>
+    </h3>
+    <p>
+        Works on supporting Rust on ST's STM32 microcontrollers.
+    </p>
+</div>
+
+</section>
+
+
 <a name="about-me"></a>
 <section class="regular">
 
