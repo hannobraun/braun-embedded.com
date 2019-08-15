@@ -146,26 +146,31 @@ Others take pride in getting things done quickly. I take pride in doing it right
     </p>
 </div>
 
-<h3>
-    LPC8xx HAL
+<div>
+    <h3>
+        LPC8xx HAL
+        <p>
+            <a href="https://github.com/lpc-rs/lpc8xx-hal">GitHub</a>,
+            <a href="https://crates.io/crates/lpc82x-hal">crates.io</a>
+        </p>
+    </h3>
     <p>
-        <a href="https://github.com/lpc-rs/lpc8xx-hal">GitHub</a>,
-        <a href="https://crates.io/crates/lpc82x-hal">crates.io</a>
+        Hardware Abstraction Layer (HAL) for the NXP LPC800 family of ARM Cortex-M0+ microcontrollers, written in Rust. Provides a safe and convenient way to write reliable software for LPC800 microcontrollers.
     </p>
-</h3>
+</div>
 
-Hardware Abstraction Layer (HAL) for the NXP LPC800 family of ARM Cortex-M0+ microcontrollers, written in Rust. Provides a safe and convenient way to write reliable software for LPC800 microcontrollers.
-
-
-<h3>
-    LPC82x PAC
+<div>
+    <h3>
+        LPC82x PAC
+        <p>
+            <a href="https://github.com/lpc-rs/lpc-pac/tree/master/lpc82x">GitHub</a>,
+            <a href="https://crates.io/crates/lpc82x-pac">crates.io</a>
+        </p>
+    </h3>
     <p>
-        <a href="https://github.com/lpc-rs/lpc-pac/tree/master/lpc82x">GitHub</a>,
-        <a href="https://crates.io/crates/lpc82x-pac">crates.io</a>
+        Peripheral Access Crate (PAC) for the NXP LPC82x family of ARM Cortex-M0+ microcontrollers. Low-level library to enable code written in the Rust programming language to fully control the hardware on those devices.
     </p>
-</h3>
-
-Peripheral Access Crate (PAC) for the NXP LPC82x family of ARM Cortex-M0+ microcontrollers. Low-level library to enable code written in the Rust programming language to fully control the hardware on those devices.
+</div>
 
 </section>
 
