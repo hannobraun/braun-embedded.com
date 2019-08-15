@@ -111,38 +111,40 @@ Others take pride in getting things done quickly. I take pride in doing it right
 
 ## Examples of my work
 
-<h3>
-    Rust implementation of IEEE 802.15.4
+<div>
+    <h3>
+        STM32F7xx HAL: USART, SPI, DMA
+        <p><strong>Client:</strong> MD69 Solutions</p>
+        <p>
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/8">#8</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/12">#12</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/13">#13</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/14">#14</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/15">#15</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/16">#16</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/17">#17</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/18">#18</a>
+        </p>
+    </h3>
     <p>
-        <a href="https://github.com/braun-embedded/rust-ieee802.15.4">GitHub</a>,
-        <a href="https://crates.io/crates/ieee802154">crates.io</a>
+        STM32F7xx HAL is a hardware abstraction layer for the STM32F7 family of microcontrollers. As part of a project for MD69 Solutions, I improved and extended support for the USART peripheral, added support for the SPI peripheral, and added DMA support to both of those.
     </p>
-</h3>
+</div>
 
-Partial implementation of the IEEE 802.15.4 standard for low-rate wireless personal area networks in Rust.
-
-
-<h3>
-    DW1000 Driver
+<div>
+    <h3>
+        DWM1001: IEEE 802.15.4 and location tracking
+        <p><strong>Client:</strong> Ferrous Systems</p>
+        <p>
+            <strong>dwm1001</strong> (<a href="https://github.com/braun-embedded/rust-dwm1001">GitHub</a>, <a href="https://crates.io/crates/dwm1001">crates.io</a>),
+            <strong>dw1000</strong> (<a href="https://github.com/braun-embedded/rust-dw1000">GitHub</a>, <a href="https://crates.io/crates/dw1000">crates.io</a>),
+            <strong>iee802154</strong> (<a href="https://github.com/braun-embedded/rust-ieee802.15.4">GitHub</a>, <a href="https://crates.io/crates/ieee802154">crates.io</a>)
+        <p>
+    </h3>
     <p>
-        <a href="https://github.com/braun-embedded/rust-dw1000">GitHub</a>,
-        <a href="https://crates.io/crates/dw1000">crates.io</a>
+        The Decawave DWM1001 module, with its Nordic nRF52832 microcontroller and Decawave DW1000 UWB radio transceiver, is a solution for wireless communication based on IEEE 802.15.4 and real-time location tracking. This project for Ferrous Systems involved building the software stack required to use the DWM1001 in Rust, including a board support package for the DWM1001 module and development board, a DW1000 driver, and a partial implementation of the IEEE 802.15.4 standard.
     </p>
-</h3>
-
-Portable Rust driver for the Decawave DW1000 wireless transceiver chip, for wireless communication and position tracking.
-
-
-<h3>
-    DWM1001 BSC
-    <p>
-        <a href="https://github.com/braun-embedded/rust-dwm1001">GitHub</a>,
-        <a href="https://crates.io/crates/dwm1001">crates.io</a>
-    </p>
-</h3>
-
-Board Support Crate (BSC) for the Decawave DWM1001 module and DWM1001-Dev board. The board combines a DW1000 wireless transceiver chip with a Nordic nRF52832 microcontroller. DWM1001 BSC enables the use of the board's features from the Rust programming language.
-
+</div>
 
 <h3>
     LPC8xx HAL
@@ -153,23 +155,6 @@ Board Support Crate (BSC) for the Decawave DWM1001 module and DWM1001-Dev board.
 </h3>
 
 Hardware Abstraction Layer (HAL) for the NXP LPC800 family of ARM Cortex-M0+ microcontrollers, written in Rust. Provides a safe and convenient way to write reliable software for LPC800 microcontrollers.
-
-
-<h3>
-    STM32F7xx HAL: USART, SPI, DMA
-    <p>
-        <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/8">#8</a>,
-        <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/12">#12</a>,
-        <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/13">#13</a>,
-        <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/14">#14</a>,
-        <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/15">#15</a>,
-        <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/16">#16</a>,
-        <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/17">#17</a>,
-        <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/18">#18</a>
-    </p>
-</h3>
-
-STM32F7xx HAL is a hardware abstraction layer for the STM32F7 family of microcontrollers. As part of a project for MD69 Solutions, I improved and extended support for the USART peripheral, added support for the SPI peripheral, and added DMA support to both of those.
 
 
 <h3>
