@@ -113,7 +113,7 @@ Others take pride in getting things done quickly. I take pride in doing it right
 
 <h3>
     Rust implementation of IEEE 802.15.4
-    <p class="open-source-links">
+    <p>
         <a href="https://github.com/braun-embedded/rust-ieee802.15.4">GitHub</a>,
         <a href="https://crates.io/crates/ieee802154">crates.io</a>
     </p>
@@ -124,7 +124,7 @@ Partial implementation of the IEEE 802.15.4 standard for low-rate wireless perso
 
 <h3>
     DW1000 Driver
-    <p class="open-source-links">
+    <p>
         <a href="https://github.com/braun-embedded/rust-dw1000">GitHub</a>,
         <a href="https://crates.io/crates/dw1000">crates.io</a>
     </p>
@@ -135,7 +135,7 @@ Portable Rust driver for the Decawave DW1000 wireless transceiver chip, for wire
 
 <h3>
     DWM1001 BSC
-    <p class="open-source-links">
+    <p>
         <a href="https://github.com/braun-embedded/rust-dwm1001">GitHub</a>,
         <a href="https://crates.io/crates/dwm1001">crates.io</a>
     </p>
@@ -146,7 +146,7 @@ Board Support Crate (BSC) for the Decawave DWM1001 module and DWM1001-Dev board.
 
 <h3>
     LPC8xx HAL
-    <p class="open-source-links">
+    <p>
         <a href="https://github.com/lpc-rs/lpc8xx-hal">GitHub</a>,
         <a href="https://crates.io/crates/lpc82x-hal">crates.io</a>
     </p>
@@ -157,7 +157,7 @@ Hardware Abstraction Layer (HAL) for the NXP LPC800 family of ARM Cortex-M0+ mic
 
 <h3>
     STM32F7xx HAL: USART, SPI, DMA
-    <p class="open-source-links">
+    <p>
         <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/8">#8</a>,
         <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/12">#12</a>,
         <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/13">#13</a>,
@@ -174,7 +174,7 @@ STM32F7xx HAL is a hardware abstraction layer for the STM32F7 family of microcon
 
 <h3>
     LPC82x PAC
-    <p class="open-source-links">
+    <p>
         <a href="https://github.com/lpc-rs/lpc-pac/tree/master/lpc82x">GitHub</a>,
         <a href="https://crates.io/crates/lpc82x-pac">crates.io</a>
     </p>
