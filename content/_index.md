@@ -80,7 +80,7 @@
 <div>
     <h3>Low touch, high leverage</h3>
     <p>
-        Before every project, I ask questions, sometimes lots of them. By the time I'm ready to start, I understand what the project is about, and can work mostly autonomously. I'll write regular reports, keep you in the loop, listen to your feedback. But if you need me to, I'll be on autopilot.
+        Before every project, I ask questions, sometimes a lot of them. By the time I'm ready to start, I'll understand what the project is about, and can work mostly autonomously. I'll write regular reports, keep you in the loop, listen to your feedback. But if you need me to, I'll be on autopilot.
     </p>
 </div>
 
@@ -160,7 +160,7 @@
         <p>
     </h3>
     <p>
-        The Decawave DWM1001 module, with its Nordic nRF52832 microcontroller and Decawave DW1000 UWB radio transceiver, is a solution for wireless communication based on IEEE 802.15.4 and real-time location tracking. This project for Ferrous Systems involved building the software stack required to use the DWM1001 in Rust, including a board support package for the DWM1001 module and development board, a DW1000 driver, and a partial implementation of the IEEE 802.15.4 standard.
+        The Decawave DWM1001 module, with its Nordic nRF52832 microcontroller and Decawave DW1000 UWB radio transceiver, is a solution for real-time location tracking and wireless communication based on IEEE 802.15.4. This project for Ferrous Systems involved building the software stack required to use the DWM1001 in Rust, including a board support package for the DWM1001 module and development board, a DW1000 driver, and a partial implementation of the IEEE 802.15.4 standard.
     </p>
 </div>
 
