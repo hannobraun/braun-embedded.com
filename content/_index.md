@@ -20,7 +20,7 @@
         </p>
     </div>
     <p class="testimonial-author">
-        <strong>- James Munns, Managing Director, Ferrous Systems GmbH</strong>
+        <strong>- James Munns, Ferrous Systems</strong>
     </p>
 </div>
 
@@ -106,7 +106,7 @@
         </p>
     </div>
     <p class="testimonial-author">
-        <strong>- James Munns, Managing Director, <a href="https://ferrous-systems.com/">Ferrous Systems GmbH</a></strong>
+        <strong>- James Munns, <a href="https://ferrous-systems.com/">Ferrous Systems</a></strong>
     </p>
 </div>
 
