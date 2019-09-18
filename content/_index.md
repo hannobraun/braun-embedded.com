@@ -152,7 +152,7 @@
 <div>
     <h3>
         DWM1001: IEEE 802.15.4 and location tracking
-        <p><strong>Client:</strong> Ferrous Systems</p>
+        <p><strong>Client:</strong> <a href="https://ferrous-systems.com/">Ferrous Systems</a></p>
         <p>
             <strong>dwm1001</strong> (<a href="https://github.com/braun-embedded/rust-dwm1001">GitHub</a>, <a href="https://crates.io/crates/dwm1001">crates.io</a>),
             <strong>dw1000</strong> (<a href="https://github.com/braun-embedded/rust-dw1000">GitHub</a>, <a href="https://crates.io/crates/dw1000">crates.io</a>),
