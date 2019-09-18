@@ -252,7 +252,7 @@ As an active member of the Embedded Rust community, I'm associated with the foll
 
 ## About me
 
-My name is Hanno Braun, and I'm an embedded software developer based out of the rural Odenwald region in central Europe. I've been using Rust for embedded development since 2015, making me an early adopter. Today, providing services in this space is my main professional focus.
+My name is Hanno Braun, and I'm an embedded software developer based out of the rural Odenwald region in central Europe. I've been using Rust for embedded development since 2015. Today, providing services in this space is my main professional focus.
 
 </section>
 
