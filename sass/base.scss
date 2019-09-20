@@ -33,6 +33,10 @@ body > header {
     border-bottom-style: solid;
     border-bottom-width: 2px;
 
+    a.title {
+        text-decoration: none;
+    }
+
     h1 {
         margin-bottom: 0em;
         font-size :    250%;
