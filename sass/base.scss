@@ -169,3 +169,17 @@ body > footer table {
         margin: 0;
     }
 }
+
+a.resize-image {
+    // Center link/image
+    display: block;
+    margin:  0 auto;
+
+    // Center text under image
+    text-align: center;
+
+    p {
+        font-size:  80%;
+        margin-top: 0;
+    }
+}
