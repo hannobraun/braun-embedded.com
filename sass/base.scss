@@ -53,6 +53,12 @@ body > header {
     }
 }
 
+// For styling alt text
+img {
+    color:     #666666;
+    font-size: 80%;
+}
+
 main {
     max-width: $content-width;
     margin   : 0 auto;
