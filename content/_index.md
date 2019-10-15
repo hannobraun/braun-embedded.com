@@ -10,19 +10,15 @@
 **I can help you focus on the work that truly matters to you**, by taking the low-level infrastructure off your hands. Go back to working on your core product, and let me do what I do best. All for a **fixed price** with a **full money back guarantee**.
 
 
-<div class="testimonial">
-    <div class="testimonial-content">
-        <p>
-            I would highly recommend Hanno to anyone looking for embedded development support in Rust. He quickly researched the unknowns in the scope of the project, and provided some really valuable insights into what was, and what wasn't, necessary to meet my goals.
-        </p>
-        <p>
-            This helped to keep costs down, while still getting me the things that were important for my project.
-        </p>
-    </div>
-    <p class="testimonial-author">
-        <strong>- James Munns, Ferrous Systems</strong>
-    </p>
-</div>
+{% testimonial(author="James Munns", org="Ferrous Systems") %}
+<p>
+    I would highly recommend Hanno to anyone looking for embedded development support in Rust. He quickly researched the unknowns in the scope of the project, and provided some really valuable insights into what was, and what wasn't, necessary to meet my goals.
+</p>
+
+<p>
+    This helped to keep costs down, while still getting me the things that were important for my project.
+</p>
+{% end %}
 
 
 <div class="call-to-action">
@@ -99,27 +95,17 @@
 
 ## What my clients say
 
-<div class="testimonial">
-    <div class="testimonial-content">
-        <p>
-            I am absolutely pleased with how this project went. Your professionalism, creativity in scoping and execution of the project, as well as your very clear desire to meet and exceed the scope of the project made this work an absolute joy.
-        </p>
-    </div>
-    <p class="testimonial-author">
-        <strong>- James Munns, <a href="https://ferrous-systems.com/">Ferrous Systems</a></strong>
-    </p>
-</div>
+{% testimonial(author="James Munns", org="Ferrous Systems", link="https://ferrous-systems.com/") %}
+<p>
+    I am absolutely pleased with how this project went. Your professionalism, creativity in scoping and execution of the project, as well as your very clear desire to meet and exceed the scope of the project made this work an absolute joy.
+</p>
+{% end %}
 
-<div class="testimonial">
-    <div class="testimonial-content">
-        <p>
-            It surprised me when you refused to increase the price after spending more time than expected.
-        </p>
-    </div>
-    <p class="testimonial-author">
-        <strong>- Philippe Delrieu, MD69 Solutions</strong>
-    </p>
-</div>
+{% testimonial(author="Philippe Delrieu", org="MD69 Solutions") %}
+<p>
+    It surprised me when you refused to increase the price after spending more time than expected.
+</p>
+{% end %}
 
 </section>
 

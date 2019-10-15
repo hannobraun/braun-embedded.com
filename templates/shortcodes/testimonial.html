@@ -1,0 +1,14 @@
+<div class="testimonial">
+    <div class="testimonial-content">
+        {{ body | safe }}
+    </div>
+    <p class="testimonial-author">
+        <strong>- {{ author }},
+            {% if link %}
+                <a href="{{ link }}">{{ org }}</a>
+            {% else %}
+                {{ org }}
+            {% endif %}
+        </strong>
+    </p>
+</div>
