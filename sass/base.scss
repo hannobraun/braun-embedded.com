@@ -81,12 +81,13 @@ main {
         color:  $color-strong;
         margin: 2em;
 
-        .testimonial-content {
+        blockquote {
             background-color: #f0f0f0;
             color:            $color-titles;
 
             border-radius: 1em;
 
+            margin:  0;
             padding: 0.1em 1em;
         }
 
