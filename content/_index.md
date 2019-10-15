@@ -101,6 +101,20 @@
 </p>
 {% end %}
 
+{% testimonial(author="Louis Thiery", org="Helium Systems", link="https://www.helium.com/") %}
+<p>
+    This fixed bid format was a first for me and it turned out very positive; I've otherwise tended to hear negative feedback from both contractors and clients on fixed bid engagements, so I'm glad we were able to see it "done right" with you.
+</p>
+{% end %}
+
+<!--
+{% testimonial(author="Louis Thiery", org="Helium Systems", link="https://www.helium.com/") %}
+<p>
+    I would say this has been the lowest touch contractor relationship I've had (over the last 3 years or so, I've worked with roughly 3 large agencies, and 4~5 independent contractors).
+</p>
+{% end %}
+-->
+
 {% testimonial(author="Philippe Delrieu", org="MD69 Solutions") %}
 <p>
     It surprised me when you refused to increase the price after spending more time than expected.
