@@ -53,7 +53,7 @@ Many operating systems have that packaged under the name `arm-none-eabi-gdb`, bu
 
 ## OpenOCD
 
-We still need another piece of software to run/debug applications on the target hardware. GDB doesn't know how to talk to the hardware directly, so we're going to need OpenOCD for that.
+GDB doesn't know how to talk to the hardware directly, so we need another piece of software to run/debug applications on the target hardware. We're going to use OpenOCD for that.
 
 OpenOCD is actively developed, but it looks like the project stopped doing releases. The latest release from the official website (0.10) is almost 3 years old and doesn't support our target hardware.
 
@@ -74,7 +74,22 @@ OpenOCD already comes with a udev configuration file that you can use. The speci
 
 1. Locate the file `60-openocd.rules`. It might be in `/usr/share/openocd/contrib` (or similar), or it might have been installed directly into `/usr/lib/udev/rules.d`.
 2. Copy `60-openocd.rules` into `/etc/udev/rules.d/`
-3. This may already work, but you might need to edit the file slightly. The udev rules from that file contain `GROUP="plugdev"`. This group doesn't exist on many Linux systems and you can just remove that part. For this workshop, only the line under the "CMSID-DAP" comment needs to be modified.
+
+This might already work, or you might need to edit the file slightly. The udev rules from that file contain `GROUP="plugdev"`. This group doesn't exist on many Linux systems and you can just remove that part.
+
+The line you need to edit should look like this:
+```
+# CMSIS-DAP compatible adapters
+ATTRS{product}=="*CMSIS-DAP*", MODE="660", GROUP="plugdev", TAG+="uaccess"
+```
+
+After the edit, it should look like this:
+```
+# CMSIS-DAP compatible adapters
+ATTRS{product}=="*CMSIS-DAP*", MODE="660", TAG+="uaccess"
+```
+
+3. If necessary, edit the file according to the instructions above. If you want to also use OpenOCD with other boards, feel free to remove the `GROUP="plugdev"` bit from all the lines in that file.
 4. Reload the udev rules: `sudo udevadm control --reload`
 
 
