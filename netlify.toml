@@ -15,11 +15,13 @@ command = "zola build --base-url $DEPLOY_PRIME_URL"
 from   = "/custom-firmware-development"
 to     = "/"
 status = 301
+force  = true
 
 [[redirects]]
 from   = "/services/custom-firmware-development"
 to     = "/"
 status = 301
+force  = true
 
 
 # Domain redirects
