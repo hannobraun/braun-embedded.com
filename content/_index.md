@@ -162,7 +162,7 @@
         <p>
             <strong>dwm1001</strong> (<a href="https://github.com/braun-embedded/rust-dwm1001">GitHub</a>, <a href="https://crates.io/crates/dwm1001">crates.io</a>),
             <strong>dw1000</strong> (<a href="https://github.com/braun-embedded/rust-dw1000">GitHub</a>, <a href="https://crates.io/crates/dw1000">crates.io</a>),
-            <strong>iee802154</strong> (<a href="https://github.com/braun-embedded/rust-ieee802.15.4">GitHub</a>, <a href="https://crates.io/crates/ieee802154">crates.io</a>)
+            <strong>ieee802154</strong> (<a href="https://github.com/braun-embedded/rust-ieee802.15.4">GitHub</a>, <a href="https://crates.io/crates/ieee802154">crates.io</a>)
         <p>
     </h3>
     <p>
