@@ -107,6 +107,12 @@
 </p>
 {% end %}
 
+{% testimonial(author="Philip Markgraf", org="Georg Fischer Signet", link="http://www.gfsignet.com/") %}
+<p>
+    The biggest surprise is there was no surprise. The project mostly worked as hoped.
+</p>
+{% end %}
+
 <!--
 {% testimonial(author="Louis Thiery", org="Helium Systems", link="https://www.helium.com/") %}
 <p>
