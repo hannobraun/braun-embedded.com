@@ -160,8 +160,8 @@
         DWM1001: IEEE 802.15.4 and location tracking
         <p><strong>Client:</strong> <a href="https://ferrous-systems.com/">Ferrous Systems</a></p>
         <p>
-            <strong>dwm1001</strong> (<a href="https://github.com/braun-embedded/rust-dwm1001">GitHub</a>, <a href="https://crates.io/crates/dwm1001">crates.io</a>),
-            <strong>dw1000</strong> (<a href="https://github.com/braun-embedded/rust-dw1000">GitHub</a>, <a href="https://crates.io/crates/dw1000">crates.io</a>),
+            <strong>dwm1001</strong> (<a href="https://github.com/braun-embedded/rust-dw1000/tree/master/dwm1001">GitHub</a>, <a href="https://crates.io/crates/dwm1001">crates.io</a>),
+            <strong>dw1000</strong> (<a href="https://github.com/braun-embedded/rust-dw1000/tree/master/dw1000">GitHub</a>, <a href="https://crates.io/crates/dw1000">crates.io</a>),
             <strong>ieee802154</strong> (<a href="https://github.com/braun-embedded/rust-ieee802.15.4">GitHub</a>, <a href="https://crates.io/crates/ieee802154">crates.io</a>)
         <p>
     </h3>
@@ -175,7 +175,7 @@
         LPC8xx HAL
         <p>
             <a href="https://github.com/lpc-rs/lpc8xx-hal">GitHub</a>,
-            <a href="https://crates.io/crates/lpc82x-hal">crates.io</a>
+            <a href="https://crates.io/crates/lpc8xx-hal">crates.io</a>
         </p>
     </h3>
     <p>
