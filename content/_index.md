@@ -209,7 +209,7 @@ As an active member of the Embedded Rust community, I'm associated with the foll
 <div>
     <h3>
         Rust Embedded Devices Working Group
-        <p><a href="https://www.rust-lang.org/governance/wgs/embedded">Rust website</a>, <a href="https://github.com/rust-embedded">GitHub</a></p>
+        <p><a href="https://www.rust-lang.org/governance/wgs/embedded">Rust website</a>, <a href="https://github.com/rust-embedded/wg">GitHub</a></p>
         <p><strong>founding member, currently inactive</strong></p>
     </h3>
     <p>
