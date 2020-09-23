@@ -133,6 +133,65 @@
 
 <div>
     <div class="title">
+        <h3>STM32L0xx HAL: RNG, USB, FLASH</h3>
+        <p><strong>Client:</strong> <a href="https://www.helium.com/">Helium Systems</a></p>
+        <p>
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/53">#53</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/59">#59</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/60">#60</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/78">#78</a>,
+        </p>
+    </div>
+    <p>
+        As part of my third project for Helium Systems, I made some more improvements to STM32L0xx HAL, specifically related to the RNG, USB, and FLASH peripherals.
+    </p>
+</div>
+
+<div>
+    <div class="title">
+        <h3>STM32L0xx HAL: low-power modes, RTC, USB, I2C, DMA, ADC</h3>
+        <p><strong>Client:</strong> <a href="https://www.helium.com/">Helium Systems</a></p>
+        <p>
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/25">#25</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/26">#26</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/27">#27</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/28">#28</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/29">#29</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/40">#40</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/44">#44</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/45">#45</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/86">#86</a>,
+        </p>
+    </div>
+    <p>
+        As a follow-up project for Helium Systems, I made further improvements and additions to STM32L0xx HAL, specifically related to support for low-power modes, the real-time clock, USB, I2C, DMA, and ADC.
+    </p>
+</div>
+
+<div>
+    <div class="title">
+        <h3>STM32L0xx HAL: I2C, AES, DMA, ADC, USART, PWM</h3>
+        <p><strong>Client:</strong> <a href="https://www.helium.com/">Helium Systems</a></p>
+        <p>
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/10">#10</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/12">#12</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/13">#13</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/14">#14</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/16">#16</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/18">#18</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/19">#19</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/20">#20</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/21">#21</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/22">#22</a>
+        </p>
+    </div>
+    <p>
+        STM32L0xx HAL is the hardware abstraction layer for the STM32L0 family microcontrollers. To support the internal development efforts of my client, Helium Systems, I made improvements and added support for new features, specifically related to I2C, AES, DMA, ADC, USART, and PWM.
+    </p>
+</div>
+
+<div>
+    <div class="title">
         <h3>STM32F7xx HAL: USART, SPI, DMA</h3>
         <p><strong>Client:</strong> MD69 Solutions</p>
         <p>
