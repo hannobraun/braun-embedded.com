@@ -1,6 +1,16 @@
 @import "globals";
 
 
+section.regular {
+    display: flow-root;
+}
+
+img.profile {
+    float: left;
+    margin-right: 0.5em;
+    border-radius: 0.5em;
+}
+
 nav {
     text-align: center;
     margin:     5em auto;

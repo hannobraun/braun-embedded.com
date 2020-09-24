@@ -258,6 +258,13 @@ As an active member of the Embedded Rust community, I'm associated with the foll
 
 ## About me
 
+<div>
+    <img
+        class="profile",
+        src="{{ resize_image(path="hanno-braun.jpg", width=150) }}",
+        alt="picture of Hanno Braun" />
+</div>
+
 My name is Hanno Braun, and I'm an embedded software developer based out of the rural Odenwald region in central Europe. I've been using Rust for embedded development since 2015. Today, providing services in this space is my main professional focus.
 
 </section>
