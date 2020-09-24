@@ -59,7 +59,7 @@ The Gnat's Tindie store page links to a specific connector, but that's an SMT co
 
 I've simply cut the cable in half, found 4 standard female-female jumper wires, cut those in half too, and soldered all of it together. If you're about as good at soldering as I am, the result might look something like this:
 
-{{ resize_image(path="tlera-corp-gnat/gnat-with-picoblade-cable.jpg", width=600, alt="A Tlera Corp Gnat with soldered on PicoBlade connector, connected to a PicoBlade cable that has been soldered together with some jumper wires. The craftsmanship leaves something to be desired.") }}
+{{ image_preview(path="tlera-corp-gnat/gnat-with-picoblade-cable.jpg", width=600, alt="A Tlera Corp Gnat with soldered on PicoBlade connector, connected to a PicoBlade cable that has been soldered together with some jumper wires. The craftsmanship leaves something to be desired.") }}
 
 Now you have some standard-sized wires to connect things to. Theoretically, these "things" include an external programmer, which would make uploading programs easier, as well as enable debugging. Unfortunately I couldn't get this to work.
 
