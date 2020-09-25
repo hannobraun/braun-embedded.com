@@ -132,8 +132,8 @@
 ## Examples of my work
 
 <div>
-    <h3>
-        STM32F7xx HAL: USART, SPI, DMA
+    <div class="title">
+        <h3>STM32F7xx HAL: USART, SPI, DMA</h3>
         <p><strong>Client:</strong> MD69 Solutions</p>
         <p>
             <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/8">#8</a>,
@@ -145,48 +145,48 @@
             <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/17">#17</a>,
             <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/18">#18</a>
         </p>
-    </h3>
+    </div>
     <p>
         STM32F7xx HAL is a hardware abstraction layer for the STM32F7 family of microcontrollers. As part of a project for MD69 Solutions, I improved and extended support for the USART peripheral, added support for the SPI peripheral, and added DMA support to both of those.
     </p>
 </div>
 
 <div>
-    <h3>
-        DWM1001: IEEE 802.15.4 and location tracking
+    <div class="title">
+        <h3>DWM1001: IEEE 802.15.4 and location tracking</h3>
         <p><strong>Client:</strong> <a href="https://ferrous-systems.com/">Ferrous Systems</a></p>
         <p>
             <strong>dwm1001</strong> (<a href="https://github.com/braun-embedded/rust-dw1000/tree/master/dwm1001">GitHub</a>, <a href="https://crates.io/crates/dwm1001">crates.io</a>),
             <strong>dw1000</strong> (<a href="https://github.com/braun-embedded/rust-dw1000/tree/master/dw1000">GitHub</a>, <a href="https://crates.io/crates/dw1000">crates.io</a>),
             <strong>ieee802154</strong> (<a href="https://github.com/braun-embedded/rust-ieee802.15.4">GitHub</a>, <a href="https://crates.io/crates/ieee802154">crates.io</a>)
         <p>
-    </h3>
+    </div>
     <p>
         The Decawave DWM1001 module, with its Nordic nRF52832 microcontroller and Decawave DW1000 UWB radio transceiver, is a solution for real-time location tracking and wireless communication based on IEEE 802.15.4. This project for Ferrous Systems involved building the software stack required to use the DWM1001 in Rust, including a board support package for the DWM1001 module and development board, a DW1000 driver, and a partial implementation of the IEEE 802.15.4 standard.
     </p>
 </div>
 
 <div>
-    <h3>
-        LPC8xx HAL
+    <div class="title">
+        <h3>LPC8xx HAL</h3>
         <p>
             <a href="https://github.com/lpc-rs/lpc8xx-hal">GitHub</a>,
             <a href="https://crates.io/crates/lpc8xx-hal">crates.io</a>
         </p>
-    </h3>
+    </div>
     <p>
         Hardware Abstraction Layer (HAL) for the NXP LPC800 family of ARM Cortex-M0+ microcontrollers, written in Rust. Provides a safe and convenient way to write reliable software for LPC800 microcontrollers.
     </p>
 </div>
 
 <div>
-    <h3>
-        LPC82x PAC
+    <div class="title">
+        <h3>LPC82x PAC</h3>
         <p>
             <a href="https://github.com/lpc-rs/lpc-pac/tree/master/lpc82x">GitHub</a>,
             <a href="https://crates.io/crates/lpc82x-pac">crates.io</a>
         </p>
-    </h3>
+    </div>
     <p>
         Peripheral Access Crate (PAC) for the NXP LPC82x family of ARM Cortex-M0+ microcontrollers. Low-level library to enable code written in the Rust programming language to fully control the hardware on those devices.
     </p>

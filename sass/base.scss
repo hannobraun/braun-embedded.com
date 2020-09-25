@@ -129,15 +129,18 @@ main {
         margin-top: 3em;
     }
 
-    section.regular div {
+    section.regular > div {
         margin-left: $left-margin;
 
-        h3 {
+        div.title {
+            h3 {
+                margin-bottom: 0;
+            }
             p {
                 padding: 0;
                 margin:  0;
 
-                font-size:   70%;
+                font-size:   80%;
                 font-weight: normal;
             }
         }
