@@ -166,9 +166,9 @@ If you're interested in using the Rust libraries presented here, the following r
 - As already mentioned, there are [examples] in the repository that demonstrate basic usage.
 - If you're looking for more usage examples, the [Internet of Streams] project might be of interest to you. It consists of a code repository, as well as a number of live streams.
 
-If you'd like to use the `dw1000` driver (or any of the other libraries) but it's lacking some feature you need, don't worry, everything's open source! Feel free to open a pull request with your changes in the [repository]. Or, if you don't have the time to do that, you can [hire me](mailto:hanno@braun-embedded.com) to do it for you.
+If you'd like to use the `dw1000` driver (or any of the other libraries) but it's lacking some feature you need, don't worry, everything's open source! Feel free to open a pull request with your changes in the [repository]. Or, if you don't have the time to do that, you can {{ email_address(text="hire me") }} to do it for you.
 
-Do you have any questions or comments about this article? Please [contact me](mailto:hanno@braun-embedded.com) and let me know!
+Do you have any questions or comments about this article? Please {{ email_address(text="contact me") }} and let me know!
 
 
 [Rust]: https://www.rust-lang.org/

@@ -1,3 +1,5 @@
+{% import "macros.html" as macros %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,9 +24,7 @@
                 <p>Hanno Braun</p>
                 <p>Michelstadt, Germany</p>
                 <p>
-                    <a href="mailto:Hanno Braun <hanno@braun-embedded.com>">
-                        hanno@braun-embedded.com
-                    </a>
+                    {{ macros::email_address(text="hanno@braun-embedded.com") }}
                 </p>
             </div>
 
@@ -74,9 +74,7 @@
                 <tr>
                     <th>Email</th>
                     <td>
-                        <a href="mailto:Hanno Braun <hanno@braun-embedded.com>">
-                            hanno@braun-embedded.com
-                        </a>
+                        {{ macros::email_address(text="hanno@braun-embedded.com") }}
                     </td>
                 </tr>
                 <tr>
