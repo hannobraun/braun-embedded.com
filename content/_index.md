@@ -32,7 +32,6 @@
 ---
 
 
-<a name="what-i-can-do"></a>
 <section class="regular">
 
 ## What I can do
@@ -61,7 +60,6 @@
 </section>
 
 
-<a name="why-work-with-me"></a>
 <section class="regular">
 
 ## Why work with me?
@@ -90,7 +88,6 @@
 </section>
 
 
-<a name="what-my-clients-say"></a>
 <section>
 
 ## What my clients say
@@ -130,7 +127,6 @@
 </section>
 
 
-<a name="examples-of-my-work"></a>
 <section class="regular">
 
 ## Examples of my work
@@ -199,7 +195,6 @@
 </section>
 
 
-<a name="community-involvement"></a>
 <section class="regular">
 
 ## Community involvement
@@ -253,7 +248,6 @@ As an active member of the Embedded Rust community, I'm associated with the foll
 </section>
 
 
-<a name="about-me"></a>
 <section class="regular">
 
 ## About me
