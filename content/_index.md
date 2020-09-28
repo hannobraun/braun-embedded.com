@@ -254,8 +254,8 @@ As an active member of the Embedded Rust community, I'm associated with the foll
 
 <div>
     <img
-        class="profile",
-        src="{{ resize_image(path="hanno-braun.jpg", width=150) }}",
+        class="profile"
+        src="{{ resize_image(path="hanno-braun.jpg", width=150) }}"
         alt="picture of Hanno Braun" />
 </div>
 
