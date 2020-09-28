@@ -202,44 +202,44 @@
 As an active member of the Embedded Rust community, I'm associated with the following groups.
 
 <div>
-    <h3>
-        Rust Embedded Devices Working Group
+    <div class="title">
+        <h3>Rust Embedded Devices Working Group</h3>
         <p><a href="https://www.rust-lang.org/governance/wgs/embedded">Rust website</a>, <a href="https://github.com/rust-embedded/wg">GitHub</a></p>
         <p><strong>founding member, currently inactive</strong></p>
-    </h3>
+    </div>
     <p>
         The Embedded Devices Working Group is the part of the Rust project that focuses on making Rust a great choice for embedded development.
     </p>
 </div>
 
 <div>
-    <h3>
-        nrf-rs
+    <div class="title">
+        <h3>nrf-rs</h3>
         <p><a href="https://github.com/nrf-rs">GitHub</a></p>
         <p><strong>founding member</strong></p>
-    </h3>
+    </div>
     <p>
         Works on supporting Rust on Nordic's nRF series of microcontrollers.
     </p>
 </div>
 
 <div>
-    <h3>
-        lpc-rs
+    <div class="title">
+        <h3>lpc-rs</h3>
         <p><a href="https://github.com/lpc-rs">GitHub</a></p>
         <p><strong>founding member</strong></p>
-    </h3>
+    </div>
     <p>
         Works on supporting Rust on NXP's LPC microcontrollers.
     </p>
 </div>
 
 <div>
-    <h3>
-        stm32-rs
+    <div class="title">
+        <h3>stm32-rs</h3>
         <p><a href="https://github.com/stm32-rs">GitHub</a></p>
         <p><strong>member</strong></p>
-    </h3>
+    </div>
     <p>
         Works on supporting Rust on ST's STM32 microcontrollers.
     </p>
