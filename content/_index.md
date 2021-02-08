@@ -102,6 +102,74 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <div>
     <div class="title">
+        <h3>STM32L4xx HAL: USART, ADC</h3>
+        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/">Georg Fischer Signet</a></p>
+        <p>
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/155">#155</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/156">#156</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/160">#160</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/161">#161</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/162">#162</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/171">#171</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/173">#173</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/179">#179</a>,
+        </p>
+    </div>
+    <p>
+        For Georg Fischer Signet, I made some improvements to STM32L4xx HAL, mostly focused on USART and ADC.
+    </p>
+</div>
+
+<div>
+    <div class="title">
+        <h3>LPC8xx HAL: USART, GPIO, I2C, SPI, DMA</h3>
+        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/">Georg Fischer Signet</a></p>
+        <p>
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/217">#217</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/223">#223</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/236">#236</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/237">#237</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/238">#238</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/239">#239</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/240">#240</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/241">#241</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/252">#252</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/253">#253</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/259">#259</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/260">#260</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/261">#261</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/262">#262</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/263">#263</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/264">#264</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/265">#265</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/266">#266</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/267">#267</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/269">#269</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/271">#271</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/272">#272</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/275">#275</a>
+        </p>
+    </div>
+    <p>
+        For Georg Fischer Signet, I made many improvements to LPC8xx HAL, mainly focused on USART, GPIO, I2C, SPI, and DMA, but also including many clean-ups of the code base.
+    </p>
+</div>
+
+<div>
+    <div class="title">
+        <h3>Embedded Test Stand</h3>
+        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/">Georg Fischer Signet</a></p>
+        <p>
+            <strong>Repository:</strong> <a href="https://github.com/braun-embedded/embedded-test-stand">github.com/braun-embedded/embedded-test-stand</a>
+        </p>
+    </div>
+    <p>
+        For Georg Fischer Signet, I developed this test stand for firmware applications, and added test suites for features of the LPC8xx HAL and STM32L4xx HAL libraries.
+    </p>
+</div>
+
+<div>
+    <div class="title">
         <h3>STM32L0xx HAL: RNG, USB, FLASH</h3>
         <p><strong>Client:</strong> <a href="https://www.helium.com/">Helium Systems</a></p>
         <p>
