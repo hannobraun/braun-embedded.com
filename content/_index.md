@@ -275,19 +275,6 @@ You are going to develop your next firmware application in Rust, but you don't h
     </p>
 </div>
 
-<div>
-    <div class="title">
-        <h3>LPC82x PAC</h3>
-        <p>
-            <a href="https://github.com/lpc-rs/lpc-pac/tree/master/lpc82x">GitHub</a>,
-            <a href="https://crates.io/crates/lpc82x-pac">crates.io</a>
-        </p>
-    </div>
-    <p>
-        Peripheral Access Crate (PAC) for the NXP LPC82x family of ARM Cortex-M0+ microcontrollers. Low-level library to enable code written in the Rust programming language to fully control the hardware on those devices.
-    </p>
-</div>
-
 </section>
 
 
