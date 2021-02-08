@@ -304,18 +304,7 @@ As an active member of the Embedded Rust community, I'm associated with the foll
         <p><strong>founding member, currently inactive</strong></p>
     </div>
     <p>
-        The Embedded Devices Working Group is the part of the Rust project that focuses on making Rust a great choice for embedded development.
-    </p>
-</div>
-
-<div>
-    <div class="title">
-        <h3>nrf-rs</h3>
-        <p><a href="https://github.com/nrf-rs">GitHub</a></p>
-        <p><strong>founding member</strong></p>
-    </div>
-    <p>
-        Works on supporting Rust on Nordic's nRF series of microcontrollers.
+        The Embedded Devices Working Group is the part of the Rust project that focuses on making Rust a great choice for embedded development. I was a founding member and member of the HAL team, mostly focusing on <a href="https://github.com/rust-embedded/embedded-hal">embedded-hal</a>.
     </p>
 </div>
 
@@ -326,7 +315,18 @@ As an active member of the Embedded Rust community, I'm associated with the foll
         <p><strong>founding member</strong></p>
     </div>
     <p>
-        Works on supporting Rust on NXP's LPC microcontrollers.
+        Community group focused on Rust support for NXP's LPC line of microcontrollers. I co-founded the group together with other members of the community and have been focused mostly on maintaining the <a href="https://github.com/lpc-rs/lpc-pac">LPC PACs</a> and development of <a href="https://github.com/lpc-rs/lpc8xx-hal">LPC8xx HAL</a>.
+    </p>
+</div>
+
+<div>
+    <div class="title">
+        <h3>nrf-rs</h3>
+        <p><a href="https://github.com/nrf-rs">GitHub</a></p>
+        <p><strong>founding member</strong></p>
+    </div>
+    <p>
+        Community group focused on Rust support for Nordic's nRF line of microcontrollers. I co-founded the group together with other members of the community, and made contributions to <a href="https://github.com/nrf-rs/nrf-hal">nrf-hal</a>.
     </p>
 </div>
 
@@ -337,7 +337,7 @@ As an active member of the Embedded Rust community, I'm associated with the foll
         <p><strong>member</strong></p>
     </div>
     <p>
-        Works on supporting Rust on ST's STM32 microcontrollers.
+        Community group focused on Rust support for the STM32 line of microcontrollers. I've been invited to co-maintain the <a href="https://github.com/stm32-rs/stm32f7xx-hal">STM32F7</a> and <a href="https://github.com/stm32-rs/stm32l0xx-hal">STM32L0</a> HALs.
     </p>
 </div>
 
