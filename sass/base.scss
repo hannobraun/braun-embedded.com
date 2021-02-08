@@ -33,23 +33,28 @@ body > header {
     border-bottom-style: solid;
     border-bottom-width: 2px;
 
+    display:         flex;
+    flex-direction:  row;
+    flex-wrap:       nowrap;
+    justify-content: space-between;
+    align-items:     baseline;
+
     a.title {
         text-decoration: none;
-    }
 
-    h1 {
-        margin-bottom: 0em;
-        font-size :    250%;
-    }
+        h1 {
+            margin-bottom: 0em;
+            font-size :    250%;
+        }
 
-    h2 {
-        margin-top: 0em;
-        font-size : 100%;
+        h2 {
+            margin-top: 0em;
+            font-size : 100%;
+        }
     }
 
     .contact-short {
         font-size: 80%;
-        float    : right;
 
         p {
             margin: 0em;
