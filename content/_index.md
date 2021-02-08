@@ -264,6 +264,19 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <div>
     <div class="title">
+        <h3>Flott - Motion Control in Rust</h3>
+        <p>
+            <strong>Step/Dir</strong> (<a href="https://github.com/flott-motion/step-dir">GitHub</a>, <a href="https://crates.io/crates/step-dir">crates.io</a>),
+            <strong>RampMaker</strong> (<a href="https://github.com/flott-motion/ramp-maker">GitHub</a>, <a href="https://crates.io/crates/ramp-maker">crates.io</a>)
+        <p>
+    </div>
+    <p>
+        Toolkit for motion control software in Rust. Designed to run on microcontrollers with minimal or no overhead.
+    </p>
+</div>
+
+<div>
+    <div class="title">
         <h3>LPC8xx HAL</h3>
         <p>
             <a href="https://github.com/lpc-rs/lpc8xx-hal">GitHub</a>,
