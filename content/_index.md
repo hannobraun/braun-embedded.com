@@ -86,14 +86,6 @@ You are going to develop your next firmware application in Rust, but you don't h
 </p>
 {% end %}
 
-<!--
-{% testimonial(author="Louis Thiery", org="Helium Systems", link="https://www.helium.com/") %}
-<p>
-    This fixed bid format was a first for me and it turned out very positive; I've otherwise tended to hear negative feedback from both contractors and clients on fixed bid engagements, so I'm glad we were able to see it "done right" with you.
-</p>
-{% end %}
--->
-
 {% testimonial(author="Philippe Delrieu", org="MD69 Solutions") %}
 <p>
     It surprised me when you refused to increase the price after spending more time than expected.
