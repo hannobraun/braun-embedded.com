@@ -20,6 +20,11 @@ a {
     color:       $color-links;
 }
 
+a.title-anchor {
+    color:           $color-titles;
+    text-decoration: none;
+}
+
 hr {
     width : 65%;
     margin: 5em auto;

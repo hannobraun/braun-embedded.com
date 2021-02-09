@@ -31,7 +31,11 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <section class="regular">
 
-## What I can do
+<a id="what-i-can-do"></a>
+<a class="title-anchor" href="#what-i-can-do" target="_self">
+    <h2>What I can do</h2>
+</a>
+
 
 <div>
     <h3>Board bring-up and microcontroller support</h3>
@@ -59,7 +63,10 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <section>
 
-## What my clients say
+<a id="what-my-clients-say"></a>
+<a class="title-anchor" href="#what-my-clients-say" target="_self">
+    <h2>What my clients say</h2>
+</a>
 
 {% testimonial(author="James Munns", org="Ferrous Systems", link="https://ferrous-systems.com/") %}
 <p>
@@ -98,7 +105,10 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <section class="regular">
 
-## Examples of my work
+<a id="examples-of-my-work"></a>
+<a class="title-anchor" href="#examples-of-my-work" target="_self">
+    <h2>Examples of my work</h2>
+</a>
 
 <div>
     <div class="title">
@@ -293,7 +303,10 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <section class="regular">
 
-## Community involvement
+<a id="community-involvement"></a>
+<a class="title-anchor" href="#community-involvement" target="_self">
+    <h2>Community involvement</h2>
+</a>
 
 As an active member of the Embedded Rust community, I'm associated with the following groups.
 
@@ -346,7 +359,10 @@ As an active member of the Embedded Rust community, I'm associated with the foll
 
 <section class="regular">
 
-## About me
+<a id="about-me"></a>
+<a class="title-anchor" href="#about-me" target="_self">
+    <h2>About me</h2>
+</a>
 
 <div>
     <img
