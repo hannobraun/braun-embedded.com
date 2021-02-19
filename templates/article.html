@@ -5,18 +5,22 @@
 {% endblock css %}
 
 {% block content %}
-<article>
-	<header>
-		<h1>{{page.title}}</h1>
-		<h2>{{page.extra.subtitle}}</h2>
-		<span class="last-updated">
-			Last updated:
-			<time datetime="{{page.extra.last_updated}}">
-				{{page.extra.last_updated}}
-			</time>
-		</span>
-	</header>
+<main>
+    <article>
+		<header>
+			<h1>{{page.title}}</h1>
+			<h2>{{page.extra.subtitle}}</h2>
+			<span class="last-updated">
+				Last updated:
+				<time datetime="{{page.extra.last_updated}}">
+					{{page.extra.last_updated}}
+				</time>
+			</span>
+		</header>
+	
+		{{ page.content | safe }}
+	</article>
+</main>
 
-	{{ page.content | safe }}
-</article>
+{{ macros::navigation() }}
 {% endblock content %}
