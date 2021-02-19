@@ -1,3 +1,6 @@
+@import "globals";
+
+
 article {
 	header {
 		margin-bottom: 2em;
@@ -18,4 +21,34 @@ article {
 			font-size:   80%;
 		}
 	}
+}
+
+#main-and-nav {
+    text-align: center;
+
+    main {
+        text-align:     left;
+        display:        inline-block;
+        vertical-align: top;
+    }
+
+    nav {
+        text-align:     left;
+        display:        inline-block;
+        vertical-align: top;
+
+        max-width: 15em;
+        margin:    4em 3em;
+
+        ul {
+            margin:  0;
+            padding: 0;
+
+            list-style-type: none;
+
+            li a {
+                color: $color-strong;
+            }
+        }
+    }
 }
