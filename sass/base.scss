@@ -198,30 +198,27 @@ ul.articles {
     }
 }
 
-.made-in-odenwald {
-    text-align: center;
-    margin:     3em auto;
-
-    a {
-        color: #000000;
-    }
-}
-
-body > footer table {
-    margin   : 0 auto;
-    font-size: 90%;
-
+table.contact {
     * {
         vertical-align: text-top;
     }
 
     th {
         text-align: right;
-        padding   : 1em;
+        padding   : 0.5em;
     }
 
     td p {
         margin: 0;
+    }
+}
+
+.made-in-odenwald {
+    text-align: center;
+    margin:     3em auto;
+
+    a {
+        color: #000000;
     }
 }
 
