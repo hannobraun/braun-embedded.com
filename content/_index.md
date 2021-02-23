@@ -11,12 +11,10 @@ You are going to develop your next firmware application in Rust, but you don't h
 <p>
     I would highly recommend Hanno to anyone looking for embedded development support in Rust. He quickly researched the unknowns in the scope of the project, and provided some really valuable insights into what was, and what wasn't, necessary to meet my goals.
 </p>
-
 <p>
     This helped to keep costs down, while still getting me the things that were important for my project.
 </p>
 {% end %}
-
 
 <div class="call-to-action">
     <div class="link contact-me">
