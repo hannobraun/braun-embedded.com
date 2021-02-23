@@ -268,7 +268,7 @@ You are going to develop your next firmware application in Rust, but you don't h
         <p>
     </div>
     <p>
-        Toolkit for motion control software in Rust. Designed to run on microcontrollers with minimal or no overhead.
+        Toolkit for motion control software in Rust. Designed to run on microcontrollers with minimal to no overhead.
     </p>
 </div>
 
