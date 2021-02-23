@@ -3,7 +3,7 @@
 
 ## Articles
 
-<ul>
+<ul class="articles">
     <li>
         <a href="/dw1000" target="_self">
             DW1000 Driver in Rust

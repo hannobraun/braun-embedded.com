@@ -189,6 +189,15 @@ main {
     }
 }
 
+ul.articles {
+    padding-left:    1em;
+    list-style-type: none;
+
+    a {
+        color: #000000;
+    }
+}
+
 .made-in-odenwald {
     text-align: center;
     margin:     3em auto;
