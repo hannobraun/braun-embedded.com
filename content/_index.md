@@ -24,9 +24,6 @@ You are going to develop your next firmware application in Rust, but you don't h
 </div>
 
 
----
-
-
 <section class="regular">
 
 <a id="what-i-can-do"></a>
