@@ -10,30 +10,3 @@ img.profile {
     margin-right: 0.5em;
     border-radius: 0.5em;
 }
-
-nav {
-    text-align: center;
-    margin:     5em auto;
-
-    ul {
-        padding:         0;
-        list-style-type: none;
-
-        li {
-            display: inline;
-
-            a {
-                color: $color-strong;
-            }
-        }
-
-        li:after {
-            content: "·";
-            margin:  0.2em;
-        }
-
-        li:last-child:after {
-            content: none;
-        }
-    }
-}
