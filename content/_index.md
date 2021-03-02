@@ -26,10 +26,12 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <section class="regular">
 
-<a id="what-i-can-do"></a>
-<a class="title-anchor" href="#what-i-can-do" target="_self">
-    <h2>What I can do</h2>
-</a>
+<div>
+    <a id="what-i-can-do"></a>
+    <a class="title-anchor" href="#what-i-can-do" target="_self">
+        <h2>What I can do</h2>
+    </a>
+</div>
 
 
 <div>
@@ -58,10 +60,12 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <section>
 
-<a id="what-my-clients-say"></a>
-<a class="title-anchor" href="#what-my-clients-say" target="_self">
-    <h2>What my clients say</h2>
-</a>
+<div>
+    <a id="what-my-clients-say"></a>
+    <a class="title-anchor" href="#what-my-clients-say" target="_self">
+        <h2>What my clients say</h2>
+    </a>
+</div>
 
 {% testimonial(author="James Munns", org="Ferrous Systems", link="https://ferrous-systems.com/") %}
 <p>
@@ -92,10 +96,12 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <section class="regular">
 
-<a id="examples-of-my-work"></a>
-<a class="title-anchor" href="#examples-of-my-work" target="_self">
-    <h2>Examples of my work</h2>
-</a>
+<div>
+    <a id="examples-of-my-work"></a>
+    <a class="title-anchor" href="#examples-of-my-work" target="_self">
+        <h2>Examples of my work</h2>
+    </a>
+</div>
 
 <div>
     <div class="title">
@@ -290,10 +296,12 @@ You are going to develop your next firmware application in Rust, but you don't h
 
 <section class="regular">
 
-<a id="community-involvement"></a>
-<a class="title-anchor" href="#community-involvement" target="_self">
-    <h2>Community involvement</h2>
-</a>
+<div>
+    <a id="community-involvement"></a>
+    <a class="title-anchor" href="#community-involvement" target="_self">
+        <h2>Community involvement</h2>
+    </a>
+</div>
 
 As an active member of the Embedded Rust community, I'm associated with the following groups.
 
@@ -346,10 +354,12 @@ As an active member of the Embedded Rust community, I'm associated with the foll
 
 <section class="regular">
 
-<a id="about-me"></a>
-<a class="title-anchor" href="#about-me" target="_self">
-    <h2>About me</h2>
-</a>
+<div>
+    <a id="about-me"></a>
+    <a class="title-anchor" href="#about-me" target="_self">
+        <h2>About me</h2>
+    </a>
+</div>
 
 <div>
     <img
