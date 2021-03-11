@@ -269,7 +269,7 @@ You are going to develop your next firmware application in Rust, but you don't h
     <div class="title">
         <h3>Flott - Motion Control in Rust</h3>
         <p>
-            <strong>Step/Dir</strong> (<a href="https://github.com/flott-motion/step-dir">GitHub</a>, <a href="https://crates.io/crates/step-dir">crates.io</a>),
+            <strong>Stepper</strong> (<a href="https://github.com/flott-motion/stepper">GitHub</a>, <a href="https://crates.io/crates/stepper">crates.io</a>),
             <strong>RampMaker</strong> (<a href="https://github.com/flott-motion/ramp-maker">GitHub</a>, <a href="https://crates.io/crates/ramp-maker">crates.io</a>)
         <p>
     </div>
