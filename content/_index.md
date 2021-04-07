@@ -303,7 +303,9 @@ You developing your next firmware application in Rust, but you don't have time t
     </a>
 </div>
 
-As an active member of the Embedded Rust community, I'm associated with the following groups.
+<div>
+    As an active member of the Embedded Rust community, I'm associated with the following groups.
+</div>
 
 <div>
     <div class="title">
