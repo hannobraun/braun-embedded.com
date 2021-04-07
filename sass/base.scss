@@ -111,8 +111,11 @@ main {
 
     h1.highlight, h2.highlight, h3.highlight {
         display: inline-block;
+
         margin:  0;
         padding: 0.2em 0.4em 0.0em 0.4em;
+
+        border-radius: 0.1em;
     }
 
     .testimonial {
