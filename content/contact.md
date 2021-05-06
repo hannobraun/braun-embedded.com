@@ -13,7 +13,7 @@
     <tr>
         <th>Matrix</th>
         <td>
-            @hannobraun:matrix.org
+            @hanno:braun-odw.eu
         </td>
     </tr>
     <tr>
