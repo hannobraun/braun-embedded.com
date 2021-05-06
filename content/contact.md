@@ -25,8 +25,4 @@
             <p>Germany</p>
         </td>
     </tr>
-    <tr>
-        <th>Phone</th>
-        <td>+49 6061 9797508</td>
-    </tr>
 </table>
