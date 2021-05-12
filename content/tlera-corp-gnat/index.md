@@ -1,13 +1,12 @@
 +++
 title    = "Using the Tlera Corp Gnat without Arduino"
 template = "article.html"
+date     = "2019-09-20"
 
 [extra]
 subtitle = """
 The Tlera Corp Gnat is a very compact Asset Tracker board using LoRA and GNSS technology. This article is for anyone who's interested in using the board while steering clear of anything Arduino.
 """
-
-last_updated = "2019-09-20"
 +++
 
 The Tlera Corp Gnat is a very neat board, but unlike most boards I've worked with so far, there doesn't seem to a data sheet or user manual that collects all the required information in a central place. The documentation it does have is very Arduino-centric.
