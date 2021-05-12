@@ -4,15 +4,12 @@
     <h2>Articles</h2>
 
     <ul class="articles">
-        <li>
-            <a href="/articles/dw1000" target="_self">
-                DW1000 Driver in Rust
-            </a>
-        </li>
-        <li>
-            <a href="/articles/tlera-corp-gnat" target="_self">
-                Tlera Corp Gnat
-            </a>
-        </li>
+        {% for page in section.pages -%}
+            <li>
+                <a href="{{ page.path }}" target="_self">
+                    {{ page.title }}
+                </a>
+            </li>
+        {%- endfor %}
     </ul>
 {% endblock content %}
