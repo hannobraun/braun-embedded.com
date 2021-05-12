@@ -16,18 +16,6 @@ status = 301
 force  = true
 
 [[redirects]]
-from   = "https://braun-embedded.eu/*"
-to     = "https://braun-embedded.com/:splat"
-status = 301
-force  = true
-
-[[redirects]]
-from   = "https://www.braun-embedded.eu/*"
-to     = "https://braun-embedded.com/:splat"
-status = 301
-force  = true
-
-[[redirects]]
 from   = "https://braun-robotics.com/*"
 to     = "https://braun-embedded.com/:splat"
 status = 301
@@ -35,30 +23,6 @@ force  = true
 
 [[redirects]]
 from   = "https://www.braun-robotics.com/*"
-to     = "https://braun-embedded.com/:splat"
-status = 301
-force  = true
-
-[[redirects]]
-from   = "https://braun-robotics.de/*"
-to     = "https://braun-embedded.com/:splat"
-status = 301
-force  = true
-
-[[redirects]]
-from   = "https://www.braun-robotics.de/*"
-to     = "https://braun-embedded.com/:splat"
-status = 301
-force  = true
-
-[[redirects]]
-from   = "https://braun-robotics.eu/*"
-to     = "https://braun-embedded.com/:splat"
-status = 301
-force  = true
-
-[[redirects]]
-from   = "https://www.braun-robotics.eu/*"
 to     = "https://braun-embedded.com/:splat"
 status = 301
 force  = true
