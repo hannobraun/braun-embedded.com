@@ -8,6 +8,11 @@ ZOLA_VERSION = "0.13.0"
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
 
+[dev]
+command    = "zola serve"
+targetPort = 1111
+framework  = "#custom"
+
 
 [[redirects]]
 from   = "https://braun-embedded.netlify.com/*"
