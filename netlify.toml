@@ -9,23 +9,6 @@ ZOLA_VERSION = "0.13.0"
 command = "zola build --base-url $DEPLOY_PRIME_URL"
 
 
-# Page redirects
-
-[[redirects]]
-from   = "/custom-firmware-development"
-to     = "/"
-status = 301
-force  = true
-
-[[redirects]]
-from   = "/services/custom-firmware-development"
-to     = "/"
-status = 301
-force  = true
-
-
-# Domain redirects
-
 [[redirects]]
 from   = "https://braun-embedded.netlify.com/*"
 to     = "https://braun-embedded.com/:splat"
