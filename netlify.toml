@@ -14,6 +14,22 @@ targetPort = 1111
 framework  = "#custom"
 
 
+# Page redirects
+
+[[redirects]]
+from   = "/dw1000*"
+to     = "/articles/dw1000/:splat"
+status = 301
+force  = true
+
+[[redirects]]
+from   = "/tlera-corp-gnat*"
+to     = "/articles/tlera-corp-gnat/:splat"
+status = 301
+force  = true
+
+# Domain redirects
+
 [[redirects]]
 from   = "https://braun-embedded.netlify.com/*"
 to     = "https://braun-embedded.com/:splat"
