@@ -3,7 +3,7 @@
 {% block content %}
     <h2>Articles</h2>
 
-    <ul class="articles">
+    <ol class="articles">
         {% for page in section.pages -%}
             <li>
                 <a href="{{ page.path }}" target="_self">
@@ -11,5 +11,5 @@
                 </a>
             </li>
         {%- endfor %}
-    </ul>
+    </ol>
 {% endblock content %}
