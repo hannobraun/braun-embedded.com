@@ -69,8 +69,8 @@ header.site-header {
 
 nav {
     max-width: $content-width;
-    // text-align: center;
-    margin:    0 auto 3em;
+    text-align: right;
+    margin:    1.5em auto 4em;
 
     ul {
         padding:         0;
@@ -81,6 +81,7 @@ nav {
 
             a {
                 color: $color-strong;
+                text-decoration: none;
             }
         }
 
