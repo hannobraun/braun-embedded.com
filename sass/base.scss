@@ -197,8 +197,8 @@ ol.articles {
     padding-left:    1em;
     list-style-type: none;
 
-    a {
-        color: #000000;
+    span.date {
+        font-weight: bold;
     }
 }
 
