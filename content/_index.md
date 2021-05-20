@@ -34,21 +34,21 @@ You are developing your next firmware application in Rust, but you don't have ti
 </div>
 
 
-<div>
+<div class="index-content">
     <h3>Board bring-up and microcontroller support</h3>
     <p>
         Rust libraries for your target hardware don't exist or don't suit your needs? I got you covered. From basic support to get you started, to a fully type-safe hardware abstraction layer: I can shield you from the low-level difficulties and keep you productive.
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <h3>Drivers for external sensors and actuators</h3>
     <p>
         Want to talk to that accelerometer on your board? Or having trouble using that radio transceiver? Let's talk. I'll deal with the problems and give you a safe, convenient, and documented Rust API. No need to learn all the intricacies, if you just want to use the features.
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <h3>Custom embedded software</h3>
     <p>
         Do you need custom control software for that device you're working on? Or maybe you need someone to implement a specific library, to aid you with your project? I'm always happy to talk about custom software development projects in the embedded space. {{ email_address(text="Contact me") }}, and we'll figure out the best way forward for you.
@@ -103,7 +103,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </a>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>STM32L4xx HAL: USART, ADC</h3>
         <p><strong>Client:</strong> <a href="http://www.gfsignet.com/" target="_blank">Georg Fischer Signet</a></p>
@@ -123,7 +123,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>LPC8xx HAL: USART, GPIO, I2C, SPI, DMA</h3>
         <p><strong>Client:</strong> <a href="http://www.gfsignet.com/" target="_blank">Georg Fischer Signet</a></p>
@@ -158,7 +158,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>Embedded Test Stand</h3>
         <p><strong>Client:</strong> <a href="http://www.gfsignet.com/" target="_blank">Georg Fischer Signet</a></p>
@@ -171,7 +171,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>STM32L0xx HAL: RNG, USB, FLASH</h3>
         <p><strong>Client:</strong> <a href="https://www.helium.com/" target="_blank">Helium Systems</a></p>
@@ -187,7 +187,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>STM32L0xx HAL: low-power modes, RTC, USB, I2C, DMA, ADC</h3>
         <p><strong>Client:</strong> <a href="https://www.helium.com/" target="_blank">Helium Systems</a></p>
@@ -208,7 +208,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>STM32L0xx HAL: I2C, AES, DMA, ADC, USART, PWM</h3>
         <p><strong>Client:</strong> <a href="https://www.helium.com/" target="_blank">Helium Systems</a></p>
@@ -230,7 +230,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>STM32F7xx HAL: USART, SPI, DMA</h3>
         <p><strong>Client:</strong> MD69 Solutions</p>
@@ -250,7 +250,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>DWM1001: IEEE 802.15.4 and location tracking</h3>
         <p><strong>Client:</strong> <a href="https://ferrous-systems.com/" target="_blank">Ferrous Systems</a></p>
@@ -265,7 +265,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>Flott - Motion Control in Rust</h3>
         <p>
@@ -278,7 +278,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>LPC8xx HAL</h3>
         <p>
@@ -303,11 +303,11 @@ You are developing your next firmware application in Rust, but you don't have ti
     </a>
 </div>
 
-<div>
+<div class="index-content">
     As an active member of the Embedded Rust community, I'm associated with the following groups.
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>Rust Embedded Devices Working Group</h3>
         <p><a href="https://www.rust-lang.org/governance/wgs/embedded" target="_blank">Rust website</a>, <a href="https://github.com/rust-embedded/wg" target="_blank">GitHub</a></p>
@@ -318,7 +318,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>lpc-rs</h3>
         <p><a href="https://github.com/lpc-rs" target="_blank">GitHub</a></p>
@@ -329,7 +329,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>nrf-rs</h3>
         <p><a href="https://github.com/nrf-rs" target="_blank">GitHub</a></p>
@@ -340,7 +340,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </p>
 </div>
 
-<div>
+<div class="index-content">
     <div class="title">
         <h3>stm32-rs</h3>
         <p><a href="https://github.com/stm32-rs" target="_blank">GitHub</a></p>
@@ -363,7 +363,7 @@ You are developing your next firmware application in Rust, but you don't have ti
     </a>
 </div>
 
-<div>
+<div class="index-content">
     <img
         class="profile"
         src="{{ resize_image(path="hanno-braun.jpg", width=150) }}"
