@@ -12,7 +12,7 @@ Our experience with previous workshops has shown that installing the software is
 
 We're also somewhat concerned about what's going to happen to the wi-fi once a room full of people starts to download stuff all at once, so that's another reason to get this done before the workshop, if possible.
 
-If you have any problems with the instructions here, feel free to contact me ({{ my_email() }}), or just ask during the workshop.
+If you have any problems with the instructions here, feel free to contact me ({{ email_address(text="hanno@braun-embedded.com") }}), or just ask during the workshop.
 
 
 ## Rust
