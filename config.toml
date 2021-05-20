@@ -1,8 +1,8 @@
 title    = "Braun Embedded"
 base_url = "https://braun-embedded.com"
 
-compile_sass       = true
 build_search_index = false
+compile_sass       = true
 
 [markdown]
 highlight_code = true
