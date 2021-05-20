@@ -1,14 +1,16 @@
 {% extends "extend/base.html" %}
 
 {% block content %}
-    <h2>Articles</h2>
+    <section class="articles">
+        <h2>Articles</h2>
 
-    <ol class="articles">
-        {% for page in section.pages -%}
-            <li>
-                <span class="date">{{ page.date }}</span> -
-                <a href="{{ page.path }}">{{ page.title }}</a>
-            </li>
-        {%- endfor %}
-    </ol>
+        <ol>
+            {% for page in section.pages -%}
+                <li>
+                    <span class="date">{{ page.date }}</span> -
+                    <a href="{{ page.path }}">{{ page.title }}</a>
+                </li>
+            {%- endfor %}
+        </ol>
+    </section>
 {% endblock content %}
