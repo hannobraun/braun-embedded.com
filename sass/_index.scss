@@ -1,12 +1,12 @@
 main {
-    $left-margin: 2em;
+    $indentation: 2em;
 
     section {
         margin-top: 3em;
     }
 
     section.regular > div.index-content {
-        margin-left: $left-margin;
+        margin-left: $indentation;
 
         div.title {
             h3 {
@@ -22,7 +22,7 @@ main {
         }
 
         p {
-            margin-left: $left-margin;
+            margin-left: $indentation;
         }
     }
 }
