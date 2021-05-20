@@ -1,6 +1,7 @@
 +++
 title = "DW1000 Driver in Rust"
 date  = "2020-03-31"
+slug  = "dw1000"
 
 [extra]
 subtitle = """

@@ -1,6 +1,7 @@
 +++
 title = "Using the Tlera Corp Gnat without Arduino"
 date  = "2019-09-20"
+slug  = "tlera-corp-gnat"
 
 [extra]
 subtitle = """
