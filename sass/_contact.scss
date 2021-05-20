@@ -1,0 +1,14 @@
+table.contact {
+    * {
+        vertical-align: text-top;
+    }
+
+    th {
+        text-align: right;
+        padding: 0.25em 0.5em;
+    }
+
+    td p {
+        margin: 0;
+    }
+}

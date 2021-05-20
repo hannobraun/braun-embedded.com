@@ -1,0 +1,30 @@
+@import "globals";
+
+nav {
+    max-width: $content-width;
+    text-align: right;
+    margin:    1.5em auto;
+
+    ul {
+        padding:         0;
+        list-style-type: none;
+
+        li {
+            display: inline;
+
+            a {
+                color: $color-strong;
+                text-decoration: none;
+            }
+        }
+
+        li:after {
+            content: "·";
+            margin:  0.2em;
+        }
+
+        li:last-child:after {
+            content: none;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@import "globals";
+
+body {
+    font-family     : Helvetica;
+    color:            $color-normal;
+    background-color: #ffffff;
+}
+
+main {
+    max-width: $content-width;
+    margin   : 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color-titles;
+}
+
+strong {
+    color: $color-strong;
+}
+
+a {
+    font-weight: bold;
+    color:       $color-links;
+}
+
+a.image-preview {
+    // Center link/image
+    display: block;
+    margin:  0 auto;
+
+    // Center text under image
+    text-align: center;
+
+    p {
+        font-size:  80%;
+        margin-top: 0;
+    }
+}
+
+a.title-anchor {
+    color:           $color-titles;
+    text-decoration: none;
+}
+
+// For styling alt text
+img {
+    color:     #666666;
+    font-size: 80%;
+}
+
+hr {
+    width : 65%;
+    margin: 5em auto;
+    border: 1px solid;
+}
+
+.made-in-odenwald {
+    text-align: center;
+    margin:     3em auto;
+
+    a {
+        color: #000000;
+    }
+}
