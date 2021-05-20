@@ -1,3 +1,4 @@
+title    = "Braun Embedded"
 base_url = "https://braun-embedded.com"
 
 compile_sass       = true
