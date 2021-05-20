@@ -28,7 +28,7 @@ You are developing your next firmware application in Rust, but you don't have ti
 
 <div>
     <a id="what-i-can-do"></a>
-    <a class="title-anchor" href="#what-i-can-do" target="_self">
+    <a class="title-anchor" href="#what-i-can-do">
         <h2>What I can do</h2>
     </a>
 </div>
@@ -62,7 +62,7 @@ You are developing your next firmware application in Rust, but you don't have ti
 
 <div>
     <a id="what-my-clients-say"></a>
-    <a class="title-anchor" href="#what-my-clients-say" target="_self">
+    <a class="title-anchor" href="#what-my-clients-say">
         <h2>What my clients say</h2>
     </a>
 </div>
@@ -98,7 +98,7 @@ You are developing your next firmware application in Rust, but you don't have ti
 
 <div>
     <a id="examples-of-my-work"></a>
-    <a class="title-anchor" href="#examples-of-my-work" target="_self">
+    <a class="title-anchor" href="#examples-of-my-work">
         <h2>Examples of my work</h2>
     </a>
 </div>
@@ -298,7 +298,7 @@ You are developing your next firmware application in Rust, but you don't have ti
 
 <div>
     <a id="community-involvement"></a>
-    <a class="title-anchor" href="#community-involvement" target="_self">
+    <a class="title-anchor" href="#community-involvement">
         <h2>Community involvement</h2>
     </a>
 </div>
@@ -358,7 +358,7 @@ You are developing your next firmware application in Rust, but you don't have ti
 
 <div>
     <a id="about-me"></a>
-    <a class="title-anchor" href="#about-me" target="_self">
+    <a class="title-anchor" href="#about-me">
         <h2>About me</h2>
     </a>
 </div>
