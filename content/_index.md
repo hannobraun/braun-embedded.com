@@ -106,16 +106,16 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div>
     <div class="title">
         <h3>STM32L4xx HAL: USART, ADC</h3>
-        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/">Georg Fischer Signet</a></p>
+        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/" target="_blank">Georg Fischer Signet</a></p>
         <p>
-            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/155">#155</a>,
-            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/156">#156</a>,
-            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/160">#160</a>,
-            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/161">#161</a>,
-            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/162">#162</a>,
-            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/171">#171</a>,
-            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/173">#173</a>,
-            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/179">#179</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/155" target="_blank">#155</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/156" target="_blank">#156</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/160" target="_blank">#160</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/161" target="_blank">#161</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/162" target="_blank">#162</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/171" target="_blank">#171</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/173" target="_blank">#173</a>,
+            <a href="https://github.com/stm32-rs/stm32l4xx-hal/pull/179" target="_blank">#179</a>,
         </p>
     </div>
     <p>
@@ -126,31 +126,31 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div>
     <div class="title">
         <h3>LPC8xx HAL: USART, GPIO, I2C, SPI, DMA</h3>
-        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/">Georg Fischer Signet</a></p>
+        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/" target="_blank">Georg Fischer Signet</a></p>
         <p>
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/217">#217</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/223">#223</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/236">#236</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/237">#237</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/238">#238</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/239">#239</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/240">#240</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/241">#241</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/252">#252</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/253">#253</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/259">#259</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/260">#260</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/261">#261</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/262">#262</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/263">#263</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/264">#264</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/265">#265</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/266">#266</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/267">#267</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/269">#269</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/271">#271</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/272">#272</a>,
-            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/275">#275</a>
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/217" target="_blank">#217</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/223" target="_blank">#223</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/236" target="_blank">#236</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/237" target="_blank">#237</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/238" target="_blank">#238</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/239" target="_blank">#239</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/240" target="_blank">#240</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/241" target="_blank">#241</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/252" target="_blank">#252</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/253" target="_blank">#253</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/259" target="_blank">#259</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/260" target="_blank">#260</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/261" target="_blank">#261</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/262" target="_blank">#262</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/263" target="_blank">#263</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/264" target="_blank">#264</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/265" target="_blank">#265</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/266" target="_blank">#266</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/267" target="_blank">#267</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/269" target="_blank">#269</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/271" target="_blank">#271</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/272" target="_blank">#272</a>,
+            <a href="https://github.com/lpc-rs/lpc8xx-hal/pull/275" target="_blank">#275</a>
         </p>
     </div>
     <p>
@@ -161,9 +161,9 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div>
     <div class="title">
         <h3>Embedded Test Stand</h3>
-        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/">Georg Fischer Signet</a></p>
+        <p><strong>Client:</strong> <a href="http://www.gfsignet.com/" target="_blank">Georg Fischer Signet</a></p>
         <p>
-            <strong>Repository:</strong> <a href="https://github.com/braun-embedded/embedded-test-stand">github.com/braun-embedded/embedded-test-stand</a>
+            <strong>Repository:</strong> <a href="https://github.com/braun-embedded/embedded-test-stand" target="_blank">github.com/braun-embedded/embedded-test-stand</a>
         </p>
     </div>
     <p>
@@ -174,12 +174,12 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div>
     <div class="title">
         <h3>STM32L0xx HAL: RNG, USB, FLASH</h3>
-        <p><strong>Client:</strong> <a href="https://www.helium.com/">Helium Systems</a></p>
+        <p><strong>Client:</strong> <a href="https://www.helium.com/" target="_blank">Helium Systems</a></p>
         <p>
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/53">#53</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/59">#59</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/60">#60</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/78">#78</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/53" target="_blank">#53</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/59" target="_blank">#59</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/60" target="_blank">#60</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/78" target="_blank">#78</a>,
         </p>
     </div>
     <p>
@@ -190,17 +190,17 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div>
     <div class="title">
         <h3>STM32L0xx HAL: low-power modes, RTC, USB, I2C, DMA, ADC</h3>
-        <p><strong>Client:</strong> <a href="https://www.helium.com/">Helium Systems</a></p>
+        <p><strong>Client:</strong> <a href="https://www.helium.com/" target="_blank">Helium Systems</a></p>
         <p>
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/25">#25</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/26">#26</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/27">#27</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/28">#28</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/29">#29</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/40">#40</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/44">#44</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/45">#45</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/86">#86</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/25" target="_blank">#25</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/26" target="_blank">#26</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/27" target="_blank">#27</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/28" target="_blank">#28</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/29" target="_blank">#29</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/40" target="_blank">#40</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/44" target="_blank">#44</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/45" target="_blank">#45</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/86" target="_blank">#86</a>,
         </p>
     </div>
     <p>
@@ -211,18 +211,18 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div>
     <div class="title">
         <h3>STM32L0xx HAL: I2C, AES, DMA, ADC, USART, PWM</h3>
-        <p><strong>Client:</strong> <a href="https://www.helium.com/">Helium Systems</a></p>
+        <p><strong>Client:</strong> <a href="https://www.helium.com/" target="_blank">Helium Systems</a></p>
         <p>
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/10">#10</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/12">#12</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/13">#13</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/14">#14</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/16">#16</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/18">#18</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/19">#19</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/20">#20</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/21">#21</a>,
-            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/22">#22</a>
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/10" target="_blank">#10</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/12" target="_blank">#12</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/13" target="_blank">#13</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/14" target="_blank">#14</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/16" target="_blank">#16</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/18" target="_blank">#18</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/19" target="_blank">#19</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/20" target="_blank">#20</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/21" target="_blank">#21</a>,
+            <a href="https://github.com/stm32-rs/stm32l0xx-hal/pull/22" target="_blank">#22</a>
         </p>
     </div>
     <p>
@@ -235,14 +235,14 @@ You are developing your next firmware application in Rust, but you don't have ti
         <h3>STM32F7xx HAL: USART, SPI, DMA</h3>
         <p><strong>Client:</strong> MD69 Solutions</p>
         <p>
-            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/8">#8</a>,
-            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/12">#12</a>,
-            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/13">#13</a>,
-            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/14">#14</a>,
-            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/15">#15</a>,
-            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/16">#16</a>,
-            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/17">#17</a>,
-            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/18">#18</a>
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/8" target="_blank">#8</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/12" target="_blank">#12</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/13" target="_blank">#13</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/14" target="_blank">#14</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/15" target="_blank">#15</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/16" target="_blank">#16</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/17" target="_blank">#17</a>,
+            <a href="https://github.com/stm32-rs/stm32f7xx-hal/pull/18" target="_blank">#18</a>
         </p>
     </div>
     <p>
@@ -253,11 +253,11 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div>
     <div class="title">
         <h3>DWM1001: IEEE 802.15.4 and location tracking</h3>
-        <p><strong>Client:</strong> <a href="https://ferrous-systems.com/">Ferrous Systems</a></p>
+        <p><strong>Client:</strong> <a href="https://ferrous-systems.com/" target="_blank">Ferrous Systems</a></p>
         <p>
-            <strong>dwm1001</strong> (<a href="https://github.com/braun-embedded/rust-dw1000/tree/master/dwm1001">GitHub</a>, <a href="https://crates.io/crates/dwm1001">crates.io</a>),
-            <strong>dw1000</strong> (<a href="https://github.com/braun-embedded/rust-dw1000/tree/master/dw1000">GitHub</a>, <a href="https://crates.io/crates/dw1000">crates.io</a>),
-            <strong>ieee802154</strong> (<a href="https://github.com/braun-embedded/rust-ieee802.15.4">GitHub</a>, <a href="https://crates.io/crates/ieee802154">crates.io</a>)
+            <strong>dwm1001</strong> (<a href="https://github.com/braun-embedded/rust-dw1000/tree/master/dwm1001" target="_blank">GitHub</a>, <a href="https://crates.io/crates/dwm1001" target="_blank">crates.io</a>),
+            <strong>dw1000</strong> (<a href="https://github.com/braun-embedded/rust-dw1000/tree/master/dw1000" target="_blank">GitHub</a>, <a href="https://crates.io/crates/dw1000" target="_blank">crates.io</a>),
+            <strong>ieee802154</strong> (<a href="https://github.com/braun-embedded/rust-ieee802.15.4" target="_blank">GitHub</a>, <a href="https://crates.io/crates/ieee802154" target="_blank">crates.io</a>)
         <p>
     </div>
     <p>
@@ -269,8 +269,8 @@ You are developing your next firmware application in Rust, but you don't have ti
     <div class="title">
         <h3>Flott - Motion Control in Rust</h3>
         <p>
-            <strong>Stepper</strong> (<a href="https://github.com/flott-motion/stepper">GitHub</a>, <a href="https://crates.io/crates/stepper">crates.io</a>),
-            <strong>RampMaker</strong> (<a href="https://github.com/flott-motion/ramp-maker">GitHub</a>, <a href="https://crates.io/crates/ramp-maker">crates.io</a>)
+            <strong>Stepper</strong> (<a href="https://github.com/flott-motion/stepper" target="_blank">GitHub</a>, <a href="https://crates.io/crates/stepper" target="_blank">crates.io</a>),
+            <strong>RampMaker</strong> (<a href="https://github.com/flott-motion/ramp-maker" target="_blank">GitHub</a>, <a href="https://crates.io/crates/ramp-maker" target="_blank">crates.io</a>)
         <p>
     </div>
     <p>
@@ -282,8 +282,8 @@ You are developing your next firmware application in Rust, but you don't have ti
     <div class="title">
         <h3>LPC8xx HAL</h3>
         <p>
-            <a href="https://github.com/lpc-rs/lpc8xx-hal">GitHub</a>,
-            <a href="https://crates.io/crates/lpc8xx-hal">crates.io</a>
+            <a href="https://github.com/lpc-rs/lpc8xx-hal" target="_blank">GitHub</a>,
+            <a href="https://crates.io/crates/lpc8xx-hal" target="_blank">crates.io</a>
         </p>
     </div>
     <p>
@@ -310,44 +310,44 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div>
     <div class="title">
         <h3>Rust Embedded Devices Working Group</h3>
-        <p><a href="https://www.rust-lang.org/governance/wgs/embedded">Rust website</a>, <a href="https://github.com/rust-embedded/wg">GitHub</a></p>
+        <p><a href="https://www.rust-lang.org/governance/wgs/embedded" target="_blank">Rust website</a>, <a href="https://github.com/rust-embedded/wg" target="_blank">GitHub</a></p>
         <p><strong>founding member, currently inactive</strong></p>
     </div>
     <p>
-        The Embedded Devices Working Group is the part of the Rust project that focuses on making Rust a great choice for embedded development. I was a founding member and member of the HAL team, mostly focusing on <a href="https://github.com/rust-embedded/embedded-hal">embedded-hal</a>.
+        The Embedded Devices Working Group is the part of the Rust project that focuses on making Rust a great choice for embedded development. I was a founding member and member of the HAL team, mostly focusing on <a href="https://github.com/rust-embedded/embedded-hal" target="_blank">embedded-hal</a>.
     </p>
 </div>
 
 <div>
     <div class="title">
         <h3>lpc-rs</h3>
-        <p><a href="https://github.com/lpc-rs">GitHub</a></p>
+        <p><a href="https://github.com/lpc-rs" target="_blank">GitHub</a></p>
         <p><strong>founding member</strong></p>
     </div>
     <p>
-        Community group focused on Rust support for NXP's LPC line of microcontrollers. I co-founded the group together with other members of the community and have been focused mostly on maintaining the <a href="https://github.com/lpc-rs/lpc-pac">LPC PACs</a> and development of <a href="https://github.com/lpc-rs/lpc8xx-hal">LPC8xx HAL</a>.
+        Community group focused on Rust support for NXP's LPC line of microcontrollers. I co-founded the group together with other members of the community and have been focused mostly on maintaining the <a href="https://github.com/lpc-rs/lpc-pac" target="_blank">LPC PACs</a> and development of <a href="https://github.com/lpc-rs/lpc8xx-hal" target="_blank">LPC8xx HAL</a>.
     </p>
 </div>
 
 <div>
     <div class="title">
         <h3>nrf-rs</h3>
-        <p><a href="https://github.com/nrf-rs">GitHub</a></p>
+        <p><a href="https://github.com/nrf-rs" target="_blank">GitHub</a></p>
         <p><strong>founding member</strong></p>
     </div>
     <p>
-        Community group focused on Rust support for Nordic's nRF line of microcontrollers. I co-founded the group together with other members of the community, and made contributions to <a href="https://github.com/nrf-rs/nrf-hal">nrf-hal</a>.
+        Community group focused on Rust support for Nordic's nRF line of microcontrollers. I co-founded the group together with other members of the community, and made contributions to <a href="https://github.com/nrf-rs/nrf-hal" target="_blank">nrf-hal</a>.
     </p>
 </div>
 
 <div>
     <div class="title">
         <h3>stm32-rs</h3>
-        <p><a href="https://github.com/stm32-rs">GitHub</a></p>
+        <p><a href="https://github.com/stm32-rs" target="_blank">GitHub</a></p>
         <p><strong>member</strong></p>
     </div>
     <p>
-        Community group focused on Rust support for the STM32 line of microcontrollers. I've been invited to co-maintain the <a href="https://github.com/stm32-rs/stm32f7xx-hal">STM32F7</a> and <a href="https://github.com/stm32-rs/stm32l0xx-hal">STM32L0</a> HALs.
+        Community group focused on Rust support for the STM32 line of microcontrollers. I've been invited to co-maintain the <a href="https://github.com/stm32-rs/stm32f7xx-hal" target="_blank">STM32F7</a> and <a href="https://github.com/stm32-rs/stm32l0xx-hal" target="_blank">STM32L0</a> HALs.
     </p>
 </div>
 
