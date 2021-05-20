@@ -3,6 +3,7 @@ base_url = "https://braun-embedded.com"
 
 build_search_index = false
 compile_sass       = true
+generate_feed      = true
 
 [markdown]
 highlight_code = true
