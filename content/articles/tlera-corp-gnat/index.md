@@ -1,7 +1,6 @@
 +++
-title    = "Using the Tlera Corp Gnat without Arduino"
-template = "article.html"
-date     = "2019-09-20"
+title = "Using the Tlera Corp Gnat without Arduino"
+date  = "2019-09-20"
 
 [extra]
 subtitle = """

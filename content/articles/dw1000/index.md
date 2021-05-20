@@ -1,7 +1,6 @@
 +++
-title    = "DW1000 Driver in Rust"
-template = "article.html"
-date     = "2020-03-31"
+title = "DW1000 Driver in Rust"
+date  = "2020-03-31"
 
 [extra]
 subtitle = """
