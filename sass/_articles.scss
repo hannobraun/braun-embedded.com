@@ -1,8 +1,28 @@
-section.articles ol {
-    padding-left:    1em;
-    list-style-type: none;
+section.articles {
+    header {
+        display:         flex;
+        flex-direction:  row;
+        flex-wrap:       wrap;
+        justify-content: flex-start;
+        align-items:     baseline;
 
-    span.date {
-        font-weight: bold;
+        h2 {
+            margin-top:    0;
+            margin-right:  0.25em;
+            margin-bottom: 0;
+        }
+
+        a {
+            font-size: 85%;
+        }
+    }
+
+    ol {
+        padding-left:    1em;
+        list-style-type: none;
+
+        span.date {
+            font-weight: bold;
+        }
     }
 }
