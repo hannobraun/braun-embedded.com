@@ -6,7 +6,7 @@ title = "Embedded Rust Glossary"
 
 This glossary is an attempt at explaining basic words and concepts from the Embedded Rust ecosystem. I attempt to extend and update it going forward.
 
-Is anything missing here? Was an entry not well explained? Do you have any questions? Please contact me (per {{ email(text="email")}} or {{ matrix(text="Matrix") }}), {{ external_link(link="https://github.com/braun-embedded/braun-embedded.com/issues", text="open an issue") }}, or {{ external_link(link="https://github.com/braun-embedded/braun-embedded.com/blob/main/content/glossary.md", text="edit this glossary on GitHub") }}.
+Is anything missing here? Was an entry not well explained? Do you have any questions? Please contact me (per {{ email(text="email")}} or {{ matrix(text="Matrix") }}), {{ ext_link(link="https://github.com/braun-embedded/braun-embedded.com/issues", text="open an issue") }}, or {{ ext_link(link="https://github.com/braun-embedded/braun-embedded.com/blob/main/content/glossary.md", text="edit this glossary on GitHub") }}.
 
 
 <section class="glossary">
@@ -29,7 +29,7 @@ Hardware Abstraction Layers usually aim to provide APIs that are high-level, con
 
 HALs are usually built on top of one or several [Peripheral Access Crates][Peripheral Access Crate] ([PAC], for short). These can usually be accessed through the HAL API, and serve as a fallback for accessing hardware features that are not yet supported by the HAL.
 
-If you're looking for a HAL for your target hardware, good places to search are {{ external_link(link="https://github.com/", text="GitHub") }}, {{ external_link(link="https://crates.io/", text="crates.io") }}, and {{ external_link(link="https://github.com/rust-embedded/awesome-embedded-rust", text="Awesome Embedded Rust") }}. There are also community groups that develop HALs for specific kinds of microcontrollers, like {{ external_link(link="https://github.com/stm32-rs", text="stm32-rs") }}, {{ external_link(link="https://github.com/nrf-rs", text="nRF Rust") }}, and {{ external_link(link="https://github.com/lpc-rs", text="lpc-rs") }}.
+If you're looking for a HAL for your target hardware, good places to search are {{ ext_link(link="https://github.com/", text="GitHub") }}, {{ ext_link(link="https://crates.io/", text="crates.io") }}, and {{ ext_link(link="https://github.com/rust-embedded/awesome-embedded-rust", text="Awesome Embedded Rust") }}. There are also community groups that develop HALs for specific kinds of microcontrollers, like {{ ext_link(link="https://github.com/stm32-rs", text="stm32-rs") }}, {{ ext_link(link="https://github.com/nrf-rs", text="nRF Rust") }}, and {{ ext_link(link="https://github.com/lpc-rs", text="lpc-rs") }}.
 </section>
 
 <section class="glossary">
@@ -52,7 +52,7 @@ Peripheral Access Crates provide register-level access to the target hardware. T
 
 PACs are generated from [SVD] files, using [svd2rust]. [SVD] files are provided by the hardware vendor and are of varying quality. Low-quality SVD files result in PACs that are buggy, miss features, and lack type-safety. Most widely-used PACs use patched [SVD] files to fix any problems that have been discovered.
 
-If you're looking for a PAC for your target hardware, good places to search are {{ external_link(link="https://github.com/", text="GitHub") }}, {{ external_link(link="https://crates.io/", text="crates.io") }}, and {{ external_link(link="https://github.com/rust-embedded/awesome-embedded-rust", text="Awesome Embedded Rust") }}. There are also community groups that provide PACs for specific kinds of microcontrollers, like {{ external_link(link="https://github.com/stm32-rs/stm32-rs", text="stm32-rs") }}, {{ external_link(link="https://github.com/nrf-rs", text="nRF Rust") }}, and {{ external_link(link="https://github.com/lpc-rs/lpc-pac", text="lpc-rs") }}.
+If you're looking for a PAC for your target hardware, good places to search are {{ ext_link(link="https://github.com/", text="GitHub") }}, {{ ext_link(link="https://crates.io/", text="crates.io") }}, and {{ ext_link(link="https://github.com/rust-embedded/awesome-embedded-rust", text="Awesome Embedded Rust") }}. There are also community groups that provide PACs for specific kinds of microcontrollers, like {{ ext_link(link="https://github.com/stm32-rs/stm32-rs", text="stm32-rs") }}, {{ ext_link(link="https://github.com/nrf-rs", text="nRF Rust") }}, and {{ ext_link(link="https://github.com/lpc-rs/lpc-pac", text="lpc-rs") }}.
 </section>
 
 <section class="glossary">
@@ -64,7 +64,7 @@ See [System View Description].
 <section class="glossary">
 {{ title_anchor(id="svd2rust", title="svd2rust") }}
 
-svd2rust ({{ external_link(link="https://github.com/rust-embedded/svd2rust", text="official repository") }}) is a tool that converts [SVD][System View Description] files into [Peripheral Access Crates][Peripheral Access Crate].
+svd2rust ({{ ext_link(link="https://github.com/rust-embedded/svd2rust", text="official repository") }}) is a tool that converts [SVD][System View Description] files into [Peripheral Access Crates][Peripheral Access Crate].
 </section>
 
 <section class="glossary">
@@ -79,7 +79,7 @@ System View Description ([SVD], for short) is an XML-based file format that desc
 
 SVD files are the basis for [PACs][Peripheral Access Crate], which are generated from the SVD file using [svd2rust]. SVD files are of varying quality, which can lead to bugs and other quality problems in the generated [PAC][Peripheral Access Crate]. [PACs][Peripheral Access Crate] are often generated from patched files for that reason, but reporting issues to the hardware vendor can also be worthwhile.
 
-SVD files can be hard to find, depending on the vendor. Some provide them for download on their websites (like {{ external_link(link="https://www.st.com/", text="ST") }}) or distribute them with their IDEs (like {{ external_link(link="https://mcuxpresso.nxp.com/", text="NXP") }}).
+SVD files can be hard to find, depending on the vendor. Some provide them for download on their websites (like {{ ext_link(link="https://www.st.com/", text="ST") }}) or distribute them with their IDEs (like {{ ext_link(link="https://mcuxpresso.nxp.com/", text="NXP") }}).
 </section>
 
 
