@@ -1,0 +1,9 @@
+@import "globals";
+
+section.glossary {
+    margin-left: $indentation;
+
+    > p {
+        margin-left: $indentation;
+    }
+}
