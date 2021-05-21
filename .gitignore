@@ -1,2 +1,5 @@
+# Cargo
+/rust/*/target
+
 # Zola
 /public
