@@ -8,7 +8,7 @@ title = "Contact"
     <tr>
         <th>Email</th>
         <td>
-            {{ email_address(text="hanno@braun-embedded.com") }}
+            {{ email(text="hanno@braun-embedded.com") }}
         </td>
     </tr>
     <tr>

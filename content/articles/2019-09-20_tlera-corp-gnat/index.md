@@ -74,4 +74,4 @@ This is a very basic board support crate that I've started working on. As of thi
 
 ### Conclusion
 
-In this article I shared some information I found useful when working with the Tlera Corp Gnat. If you found a mistake, have a suggestion, or have anything else to add, feel free to contact me at {{ email_address(text="hanno@braun-embedded.com") }}.
+In this article I shared some information I found useful when working with the Tlera Corp Gnat. If you found a mistake, have a suggestion, or have anything else to add, feel free to contact me at {{ email(text="hanno@braun-embedded.com") }}.

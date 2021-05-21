@@ -18,7 +18,7 @@ You are developing your next firmware application in Rust, but you don't have ti
 
 <div class="call-to-action">
     <div class="link contact-me">
-        {{ email_address(text="Contact me") }}
+        {{ email(text="Contact me") }}
     </div>
     <p>↓ or keep reading ↓</p>
 </div>
@@ -51,7 +51,7 @@ You are developing your next firmware application in Rust, but you don't have ti
 <div class="index-content">
     <h3>Custom embedded software</h3>
     <p>
-        Do you need custom control software for that device you're working on? Or maybe you need someone to implement a specific library, to aid you with your project? I'm always happy to talk about custom software development projects in the embedded space. {{ email_address(text="Contact me") }}, and we'll figure out the best way forward for you.
+        Do you need custom control software for that device you're working on? Or maybe you need someone to implement a specific library, to aid you with your project? I'm always happy to talk about custom software development projects in the embedded space. {{ email(text="Contact me") }}, and we'll figure out the best way forward for you.
     </p>
 </div>
 
@@ -377,6 +377,6 @@ My name is Hanno Braun, and I'm an embedded software developer based out of the 
 
 <div class="call-to-action">
     <div class="link contact-me">
-        {{ email_address(text="Contact me") }}
+        {{ email(text="Contact me") }}
     </div>
 </div>
