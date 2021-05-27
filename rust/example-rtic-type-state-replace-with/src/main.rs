@@ -69,12 +69,12 @@ const APP: () = {
                 //
                 // We'll just panic here instead. Please note that this can
                 // result in a double-panic, which could be problematic, and the
-                // `replace_with` documentation explicitly recommends not
-                // panicking here.
+                // `replace_with` documentation explicitly recommends not to
+                // panic here.
                 //
-                // In a real application, you might want to do something better
-                // here, like logging an error and restarting the application in
-                // a controlled manner.
+                // In a real application, you might want to do something better,
+                // like logging an error and restarting the application in a
+                // controlled manner.
                 panic!("Panic while using peripheral")
             },
             |peripheral| {
