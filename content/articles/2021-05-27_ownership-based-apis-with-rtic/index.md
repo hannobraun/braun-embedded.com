@@ -38,11 +38,11 @@ pub struct Disabled;
 pub struct Enabled;
 ```
 
-This pattern is often called "type state". The `use_peripheral` method is only available, if the peripheral is enabled, and this is checked at compile-time. This pattern can be very useful, to prevent accidental misuse of the API.
+This pattern is often called "[type state](/glossary/#type-state)". The `use_peripheral` method is only available, if the peripheral is enabled, and this is checked at compile-time. This pattern can be very useful, to prevent accidental misuse of the API.
 
-Another example of using ownership in a similar way are DMA APIs, which often involve a `Transfer` type that consumes the peripheral, a buffer, and whatever else it needs to do its job, giving all of it back once the DMA transfer has finished.
+Another example of using ownership in a similar way are [DMA](/glossary/#dma) APIs, which often involve a `Transfer` type that consumes the peripheral, a buffer, and whatever else it needs to do its job, giving all of it back once the DMA transfer has finished.
 
-If we use this API in an RTIC task, it could look like this (using RTIC 0.5.x):
+If we use this API in an [RTIC](/glossary/#rtic) task, it could look like this (using RTIC 0.5.x):
 
 ``` rust
 // Most of the RTIC application omitted for brevity.
