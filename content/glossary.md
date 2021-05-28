@@ -118,6 +118,25 @@ svd2rust ({{ ext_link(link="https://github.com/rust-embedded/svd2rust", text="of
 See [SVD].
 </section>
 
+<section class="glossary">
+{{ title_anchor(id="type-state", title="Type State") }}
+
+In the context of Embedded Rust, type state refers to a pattern that uses types to encode the state of an API at compile-time. This can be useful in preventing accidental misuse of the API. For example, if the API controls a microcontroller peripheral, methods that will only work when the peripheral is enabled will simply be unavailable (trying to use them will cause a compiler error), until the peripheral has been enabled.
+
+Rust's ownership system makes this pattern more useful then in most languages, as it provides much more control over how APIs can be used.
+</section>
+
+<section class="glossary">
+{{
+    title_anchor(
+        id="system-view-description",
+        title="System View Description"
+    )
+}}
+
+See [SVD].
+</section>
+
 
 [Direct Memory Access]: #direct-memory-access
 [DMA]: #dma
