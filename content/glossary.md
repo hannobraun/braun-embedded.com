@@ -4,9 +4,9 @@ title = "Embedded Rust Glossary"
 
 ## Embedded Rust Glossary
 
-This glossary is an attempt at explaining basic words and concepts from the Embedded Rust ecosystem. I attempt to extend and update it going forward.
+This glossary is an attempt at explaining basic concepts from the Embedded Rust ecosystem. I will attempt to extend and update it going forward.
 
-Is anything missing here? Was an entry not well explained? Do you have any questions? Please contact me (per {{ email(text="email")}} or {{ matrix(text="Matrix") }}), {{ ext_link(link="https://github.com/braun-embedded/braun-embedded.com/issues", text="open an issue") }}, or {{ ext_link(link="https://github.com/braun-embedded/braun-embedded.com/blob/main/content/glossary.md", text="edit this glossary on GitHub") }}.
+Is anything missing here? Is an entry not well explained? Do you have any questions? If so, please contact me (per {{ email(text="email")}} or {{ matrix(text="Matrix") }}), {{ ext_link(link="https://github.com/braun-embedded/braun-embedded.com/issues", text="open an issue") }}, or {{ ext_link(link="https://github.com/braun-embedded/braun-embedded.com/blob/main/content/glossary.md", text="edit this glossary on GitHub") }}.
 
 
 <section class="glossary">
