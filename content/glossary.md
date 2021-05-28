@@ -35,7 +35,13 @@ If you're looking for a HAL for your target hardware, good places to search are 
 <section class="glossary">
 {{ title_anchor(id="pac", title="PAC") }}
 
-See [Peripheral Access Crate].
+PACs (short for [Peripheral Access Crate]) are low-level, machine-generated libraries that aim to cover that usually provide a complete or near-complete interface to a given microcontroller. [Hardware Abstraction Layers][Hardware Abstraction Layer] are usually built on top of them, and provide a higher-level interface to the same hardware.
+
+Peripheral Access Crates provide register-level access to the target hardware. Their APIs tend to have some level of type-safety, but do otherwise not attempt to restrict or guide the user in any way. Using them is very error-prone and requires a solid understanding of the target hardware. For that reason, using a [Hardware Abstraction Layer] is usually preferred.
+
+PACs are generated from [SVD] files, using [svd2rust]. [SVD] files are provided by the hardware vendor and are of varying quality. Low-quality SVD files result in PACs that are buggy, miss features, and lack type-safety. Most widely-used PACs use patched [SVD] files to fix any problems that have been discovered.
+
+If you're looking for a PAC for your target hardware, good places to search are {{ ext_link(link="https://github.com/", text="GitHub") }}, {{ ext_link(link="https://crates.io/", text="crates.io") }}, and {{ ext_link(link="https://github.com/rust-embedded/awesome-embedded-rust", text="Awesome Embedded Rust") }}. There are also community groups that provide PACs for specific kinds of microcontrollers, like {{ ext_link(link="https://github.com/stm32-rs/stm32-rs", text="stm32-rs") }}, {{ ext_link(link="https://github.com/nrf-rs", text="nRF Rust") }}, and {{ ext_link(link="https://github.com/lpc-rs/lpc-pac", text="lpc-rs") }}.
 </section>
 
 <section class="glossary">
@@ -46,13 +52,7 @@ See [Peripheral Access Crate].
     )
 }}
 
-Peripheral Access Crates ([PAC], for short) are low-level, machine-generated libraries that aim to cover that usually provide a complete or near-complete interface to a given microcontroller. [Hardware Abstraction Layers][Hardware Abstraction Layer] are usually built on top of them, and provide a higher-level interface to the same hardware.
-
-Peripheral Access Crates provide register-level access to the target hardware. Their APIs tend to have some level of type-safety, but do otherwise not attempt to restrict or guide the user in any way. Using them is very error-prone and requires a solid understanding of the target hardware. For that reason, using a [Hardware Abstraction Layer] is usually preferred.
-
-PACs are generated from [SVD] files, using [svd2rust]. [SVD] files are provided by the hardware vendor and are of varying quality. Low-quality SVD files result in PACs that are buggy, miss features, and lack type-safety. Most widely-used PACs use patched [SVD] files to fix any problems that have been discovered.
-
-If you're looking for a PAC for your target hardware, good places to search are {{ ext_link(link="https://github.com/", text="GitHub") }}, {{ ext_link(link="https://crates.io/", text="crates.io") }}, and {{ ext_link(link="https://github.com/rust-embedded/awesome-embedded-rust", text="Awesome Embedded Rust") }}. There are also community groups that provide PACs for specific kinds of microcontrollers, like {{ ext_link(link="https://github.com/stm32-rs/stm32-rs", text="stm32-rs") }}, {{ ext_link(link="https://github.com/nrf-rs", text="nRF Rust") }}, and {{ ext_link(link="https://github.com/lpc-rs/lpc-pac", text="lpc-rs") }}.
+See [PAC].
 </section>
 
 <section class="glossary">
@@ -60,7 +60,7 @@ If you're looking for a PAC for your target hardware, good places to search are 
 
 SVD (short for [System View Description]) is an XML-based file format that describes a microcontroller from the perspective of the software that is running on it. More specifically, it describes the register-based interface of the microcontroller's peripherals, but also contains some other information, like available hardware interrupts.
 
-SVD files are the basis for [PACs][Peripheral Access Crate], which are generated from an SVD file using [svd2rust]. SVD files are of varying quality, which can lead to bugs and other quality problems in the generated [PAC][Peripheral Access Crate]. [PACs][Peripheral Access Crate] are often generated from patched files for that reason, but reporting issues to the hardware vendor can also be worthwhile.
+SVD files are the basis for [PACs][PAC], which are generated from an SVD file using [svd2rust]. SVD files are of varying quality, which can lead to bugs and other quality problems in the generated [PAC]. [PACs][PAC] are often generated from patched files for that reason, but reporting issues to the hardware vendor can also be worthwhile.
 
 SVD files can be hard to find, depending on the vendor. Some provide them for download on their websites (like {{ ext_link(link="https://www.st.com/", text="ST") }}) or distribute them with their IDEs (like {{ ext_link(link="https://mcuxpresso.nxp.com/", text="NXP") }}).
 </section>
@@ -68,7 +68,7 @@ SVD files can be hard to find, depending on the vendor. Some provide them for do
 <section class="glossary">
 {{ title_anchor(id="svd2rust", title="svd2rust") }}
 
-svd2rust ({{ ext_link(link="https://github.com/rust-embedded/svd2rust", text="official repository") }}) is a tool that converts [SVD] files into [Peripheral Access Crates][Peripheral Access Crate].
+svd2rust ({{ ext_link(link="https://github.com/rust-embedded/svd2rust", text="official repository") }}) is a tool that converts [SVD] files into [Peripheral Access Crates][PAC].
 </section>
 
 <section class="glossary">
