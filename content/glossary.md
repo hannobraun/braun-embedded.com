@@ -58,13 +58,17 @@ If you're looking for a PAC for your target hardware, good places to search are 
 <section class="glossary">
 {{ title_anchor(id="svd", title="SVD") }}
 
-See [System View Description].
+SVD (short for [System View Description]) is an XML-based file format that describes a microcontroller from the perspective of the software that is using it. More specifically, it describes the register-based interface of the microcontroller's peripherals, but also contains some other information, like available hardware interrupts.
+
+SVD files are the basis for [PACs][Peripheral Access Crate], which are generated from the SVD file using [svd2rust]. SVD files are of varying quality, which can lead to bugs and other quality problems in the generated [PAC][Peripheral Access Crate]. [PACs][Peripheral Access Crate] are often generated from patched files for that reason, but reporting issues to the hardware vendor can also be worthwhile.
+
+SVD files can be hard to find, depending on the vendor. Some provide them for download on their websites (like {{ ext_link(link="https://www.st.com/", text="ST") }}) or distribute them with their IDEs (like {{ ext_link(link="https://mcuxpresso.nxp.com/", text="NXP") }}).
 </section>
 
 <section class="glossary">
 {{ title_anchor(id="svd2rust", title="svd2rust") }}
 
-svd2rust ({{ ext_link(link="https://github.com/rust-embedded/svd2rust", text="official repository") }}) is a tool that converts [SVD][System View Description] files into [Peripheral Access Crates][Peripheral Access Crate].
+svd2rust ({{ ext_link(link="https://github.com/rust-embedded/svd2rust", text="official repository") }}) is a tool that converts [SVD] files into [Peripheral Access Crates][Peripheral Access Crate].
 </section>
 
 <section class="glossary">
@@ -75,11 +79,7 @@ svd2rust ({{ ext_link(link="https://github.com/rust-embedded/svd2rust", text="of
     )
 }}
 
-System View Description ([SVD], for short) is an XML-based file format that describes a microcontroller from the perspective of the software that is using it. More specifically, it describes the register-based interface of the microcontroller's peripherals, but also contains some other information, like available hardware interrupts.
-
-SVD files are the basis for [PACs][Peripheral Access Crate], which are generated from the SVD file using [svd2rust]. SVD files are of varying quality, which can lead to bugs and other quality problems in the generated [PAC][Peripheral Access Crate]. [PACs][Peripheral Access Crate] are often generated from patched files for that reason, but reporting issues to the hardware vendor can also be worthwhile.
-
-SVD files can be hard to find, depending on the vendor. Some provide them for download on their websites (like {{ ext_link(link="https://www.st.com/", text="ST") }}) or distribute them with their IDEs (like {{ ext_link(link="https://mcuxpresso.nxp.com/", text="NXP") }}).
+See [SVD].
 </section>
 
 
