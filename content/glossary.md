@@ -56,6 +56,25 @@ See [PAC].
 </section>
 
 <section class="glossary">
+{{
+    title_anchor(
+        id="real-time-interrupt-driven-concurrency",
+        title="Real-Time Interrupt-driven Concurrency"
+    )
+}}
+
+See [RTIC].
+</section>
+
+<section class="glossary">
+{{ title_anchor(id="rtic", title="RTIC") }}
+
+RTIC (short for [Real-Time Interrupt-driven Concurrency]; {{ ext_link(link="https://rtic.rs/", text="official website") }}) is a lightweight framework for building Embedded Rust applications. It provides a task abstraction, efficient and safe sharing of resources between tasks, message passing, and more.
+
+RTIC systematically solves many of the problems that any non-trivial Embedded Rust application would end up solving in an ad-hoc way anyway. It is therefore a widely held belief within the Embedded Rust community, that most firmware applications should use RTIC, unless there is a specific reason not to.
+</section>
+
+<section class="glossary">
 {{ title_anchor(id="svd", title="SVD") }}
 
 SVD (short for [System View Description]) is an XML-based file format that describes a microcontroller from the perspective of the software that is running on it. More specifically, it describes the register-based interface of the microcontroller's peripherals, but also contains some other information, like available hardware interrupts.
@@ -87,6 +106,8 @@ See [SVD].
 [Hardware Abstraction Layer]: #hardware-abstraction-layer
 [PAC]: #pac
 [Peripheral Access Crate]: #peripheral-access-crate
+[Real-Time Interrupt-driven Concurrency]: #real-time-interrupt-driven-concurrency
+[RTIC]: #rtic
 [SVD]: #svd
 [svd2rust]: #svd2rust
 [System View Description]: #system-view-description
