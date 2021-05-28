@@ -10,6 +10,23 @@ Is anything missing here? Is an entry not well explained? Do you have any questi
 
 
 <section class="glossary">
+{{
+    title_anchor(
+        id="direct-memory-access",
+        title="Direct Memory Access"
+    )
+}}
+
+See [DMA].
+</section>
+
+<section class="glossary">
+{{ title_anchor(id="dma", title="DMA") }}
+
+DMA (short for [Direct Memory Access]) is a hardware feature that allows microcontroller peripherals to directly access memory. This allows for larger amounts of work to be done without software interaction, improving performance and efficiency.
+</section>
+
+<section class="glossary">
 {{ title_anchor(id="hal", title="HAL") }}
 
 HALs (short for [Hardware Abstraction Layer]) are libraries that interface with microcontrollers. They are specific to the microcontrollers they interface with, and there are many different HALs for different types of microcontroller. They can be quite specific, only covering a few microcontroller models, or more general, covering multiple microcontroller families.
@@ -102,6 +119,8 @@ See [SVD].
 </section>
 
 
+[Direct Memory Access]: #direct-memory-access
+[DMA]: #dma
 [HAL]: #hal
 [Hardware Abstraction Layer]: #hardware-abstraction-layer
 [PAC]: #pac
