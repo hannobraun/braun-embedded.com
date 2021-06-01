@@ -14,7 +14,7 @@ title = "Contact"
     <tr>
         <th>Matrix</th>
         <td>
-            @hanno:braun-odw.eu
+            {{ matrix(text="@hanno:braun-odw.eu") }}
         </td>
     </tr>
     <tr>
