@@ -1,6 +1,11 @@
 @import "globals";
 
 main {
+    header.home {
+        display: flex;
+        justify-content: center;
+    }
+
     section {
         margin-top: 3em;
     }
