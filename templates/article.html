@@ -16,6 +16,14 @@
 	{{ page.content | safe }}
 
 	<footer>
+		<aside>
+			<p>
+				Did you like what you read? Consider subscribing to the {{ macros::feed(text="news feed") }} or signing up to the newsletter (see form below).
+			</p>
+			<p>
+				Didn't like it? Found a mistake? {{ macros::email(text="Let me know what's wrong!") }}
+			</p>
+		</aside>
 		{% include "include/newsletter.html" %}
 	</footer>
 </article>
