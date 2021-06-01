@@ -1,9 +1,11 @@
 +++
 +++
 
-<h1 class="highlight">
-    Painless Embedded Rust
-</h1>
+<header class="home">
+    <h1 class="highlight">
+        Painless Embedded Rust
+    </h1>
+</header>
 
 You are developing your next firmware application in Rust, but you don't have time to get bogged down in hardware specifics. **I can help you focus on the work that truly matters**, by taking the low-level infrastructure off your hands. Go back to working on your core product, and leave the rest to me.
 
