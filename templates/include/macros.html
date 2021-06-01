@@ -1,3 +1,7 @@
 {% macro email(text) %}
 <a href="mailto:Hanno%20Braun%20%3Channo@braun-embedded.com%3E">{{ text }}</a>
 {% endmacro email %}
+
+{% macro feed(text) %}
+<a href="/atom.xml">{{ text }}</a>
+{% endmacro feed %}

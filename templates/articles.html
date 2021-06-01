@@ -1,10 +1,12 @@
+{% import "include/macros.html" as macros %}
+
 {% extends "extend/base.html" %}
 
 {% block content %}
     <section class="articles">
         <header>
             <h2>Articles</h2>
-            <a href="/atom.xml">(feed)</a>
+            {{ macros::feed(text="(feed)") }}
         </header>
 
         <ol>
