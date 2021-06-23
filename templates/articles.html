@@ -12,8 +12,15 @@
         <ol>
             {% for page in section.pages -%}
                 <li>
-                    <span class="date">{{ page.date }}</span> -
-                    <a href="{{ page.path }}">{{ page.title }}</a>
+                    <h3>{{ page.title }}</h3>
+                    <span class="last-updated">
+                        Last updated:
+                        <time datetime="{{page.date}}">
+                            {{page.date}}
+                        </time>
+                    </span>
+                    <p>{{ page.extra.subtitle }}</p>
+                    <a href="{{ page.path }}">Go to article...</a>
                 </li>
             {%- endfor %}
         </ol>
