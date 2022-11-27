@@ -1,5 +1,11 @@
 @import "globals";
 
+p.notice {
+    text-align: center;
+    background-color: $color-complement2;
+    padding: 1rem;
+}
+
 header.site-header {
     max-width: $content-width;
     margin   : 0 auto;
